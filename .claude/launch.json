@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cincy-maid-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "--turbopack", "--port", "3098"],
+      "port": 3098,
+      "cwd": "/Users/ashrafsamawi/Desktop/Claude Code/cincy-maid"
+    }
+  ]
+}
