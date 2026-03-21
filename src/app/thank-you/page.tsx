@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Thank You for Booking | CincyMaid",
+  title: "Thank You for Booking | Cincy Maid",
   description:
-    "Your cleaning has been booked! CincyMaid will send a confirmation email with all the details for your upcoming appointment.",
+    "Your cleaning has been booked! Cincy Maid will send a confirmation email with all the details for your upcoming appointment.",
 };
 
 export default function ThankYouPage() {

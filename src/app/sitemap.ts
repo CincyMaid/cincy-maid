@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   /* ---- Static pages ---- */
   const staticPaths = [
     "/services",
+    "/services/recurring-cleaning",
+    "/services/deep-cleaning",
     "/commercial",
     "/about",
     "/booking",
@@ -26,7 +28,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/gift-cards",
     "/careers",
     "/locations",
+    "/blog",
   ];
+
+  /* ---- Blog posts ---- */
+  const blogSlugs = [
+    "signs-you-need-a-house-cleaner",
+    "how-to-prepare-for-cleaning-service",
+    "spring-cleaning-checklist-cincinnati",
+  ];
+
+  const blogPages: MetadataRoute.Sitemap = blogSlugs.map((slug) => ({
+    url: `${BASE_URL}/blog/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
 
   const staticPages: MetadataRoute.Sitemap = staticPaths.map((path) => ({
     url: `${BASE_URL}${path}`,
@@ -45,5 +62,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...home, ...staticPages, ...locationPages];
+  return [...home, ...staticPages, ...blogPages, ...locationPages];
 }

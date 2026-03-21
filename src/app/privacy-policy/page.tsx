@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CincyMaid",
+  title: "Privacy Policy | Cincy Maid",
   description:
-    "CincyMaid privacy policy. Learn how we collect, use, and protect your personal information.",
+    "Cincy Maid privacy policy. Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {

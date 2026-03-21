@@ -24,7 +24,7 @@ export async function generateMetadata({
     return { title: "Location Not Found" };
   }
 
-  const title = `${location.name} House Cleaning Services | CincyMaid`;
+  const title = `${location.name} House Cleaning Services | Cincy Maid`;
   const description = `Professional house cleaning in ${location.name}, ${location.state}. ${location.local_character.slice(0, 140)}...`;
   const url = `https://cincymaid.com/locations/${location.slug}`;
 

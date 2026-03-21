@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://cincymaid.com/commercial",
   },
   openGraph: {
-    title: "Commercial Cleaning Services in Cincinnati, OH | CincyMaid",
+    title: "Commercial Cleaning Services in Cincinnati, OH | Cincy Maid",
     description:
       "Tailored office, retail, and workspace cleaning for Cincinnati businesses. Fully insured teams and flexible scheduling.",
     url: "https://cincymaid.com/commercial",
@@ -184,43 +184,55 @@ const faqs = [
 ];
 
 export default function CommercialPage() {
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
   const serviceJsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "Commercial Cleaning Services",
-    serviceType: "Commercial Cleaning",
+    name: "Commercial Cleaning Services in Cincinnati",
     provider: {
       "@type": "LocalBusiness",
-      name: "CincyMaid",
+      name: "Cincy Maid",
       url: "https://cincymaid.com",
-      telephone: "+15139517799",
-      email: "admin@cincymaid.com",
-      areaServed: {
-        "@type": "City",
-        name: "Cincinnati",
-        addressRegion: "OH",
-      },
+      telephone: "(513) 951-7799",
     },
     areaServed: {
       "@type": "City",
       name: "Cincinnati",
-      addressRegion: "OH",
+      containedInPlace: { "@type": "State", name: "Ohio" },
     },
     description:
-      "Custom commercial cleaning programs for offices, retail, and shared workspaces in Cincinnati, OH. Fully insured, flexible scheduling, and after-hours availability.",
+      "Professional commercial cleaning for offices, retail spaces, and small businesses in Greater Cincinnati. Flexible scheduling, fully insured teams, consistent results.",
+    serviceType: "Commercial Cleaning",
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "How much does commercial cleaning cost in Cincinnati?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Commercial cleaning pricing in Cincinnati depends on the size of your space, cleaning frequency, and specific requirements. Cincy Maid provides custom quotes for all commercial clients. Request a free quote at cincymaid.com/commercial or call (513) 951-7799.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Does Cincy Maid clean offices in Cincinnati?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. Cincy Maid provides professional office and commercial cleaning across Greater Cincinnati including Hyde Park, Blue Ash, Mason, and downtown Cincinnati. We clean offices, retail spaces, studios, and small businesses with flexible scheduling around your business hours.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Are commercial cleaners insured?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. All Cincy Maid commercial cleaners are fully insured and have passed comprehensive background checks. We carry liability coverage for every commercial job.",
+        },
+      },
+    ],
   };
 
   return (

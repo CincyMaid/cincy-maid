@@ -5,14 +5,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "House Cleaning Services in Cincinnati, OH",
   description:
-    "Residential, commercial, and move-in/move-out cleaning services across Cincinnati. Recurring plans starting at $120. Trained teams, consistent results, flexible scheduling.",
+    "Residential, commercial, and move-in/move-out cleaning services across Cincinnati. Recurring plans starting at $155. Trained teams, consistent results, flexible scheduling.",
   alternates: {
     canonical: "https://cincymaid.com/services",
   },
   openGraph: {
-    title: "House Cleaning Services in Cincinnati, OH | CincyMaid",
+    title: "House Cleaning Services in Cincinnati, OH | Cincy Maid",
     description:
-      "Residential, commercial, and move-in/move-out cleaning services across Cincinnati. Recurring plans starting at $120.",
+      "Residential, commercial, and move-in/move-out cleaning services across Cincinnati. Recurring plans starting at $155.",
     url: "https://cincymaid.com/services",
   },
 };
@@ -114,7 +114,7 @@ const faqs = [
   {
     question: "How is pricing determined?",
     answer:
-      "We base quotes on your home's square footage, number of bedrooms and bathrooms, and the cleaning frequency you choose. Recurring plans start at $120 per visit, and you will always see your exact price before confirming.",
+      "We base quotes on your home's square footage, number of bedrooms and bathrooms, and the cleaning frequency you choose. Recurring plans start at $155 per visit, and you will always see your exact price before confirming.",
   },
   {
     question: "Do I need to provide cleaning supplies or equipment?",
@@ -152,13 +152,47 @@ export default function ServicesPage() {
     })),
   };
 
+  const localBusinessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Cincy Maid",
+    "@id": "https://cincymaid.com/#business",
+    url: "https://cincymaid.com",
+    telephone: "(513) 951-7799",
+    email: "admin@cincymaid.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Cincinnati",
+      addressRegion: "OH",
+      addressCountry: "US",
+    },
+    priceRange: "$$",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "33",
+      bestRating: "5",
+    },
+  };
+
+  const speakableJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "House Cleaning Services in Cincinnati, OH | Cincy Maid",
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", ".services-intro", "#cleaning-includes"],
+    },
+    url: "https://cincymaid.com/services",
+  };
+
   const serviceJsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "House Cleaning Services",
     provider: {
       "@type": "LocalBusiness",
-      name: "CincyMaid",
+      name: "Cincy Maid",
       url: "https://cincymaid.com",
       telephone: "+15139517799",
       email: "admin@cincymaid.com",
@@ -218,6 +252,14 @@ export default function ServicesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableJsonLd) }}
       />
 
       {/* ── Hero ── */}
@@ -305,9 +347,25 @@ export default function ServicesPage() {
           {/* Pricing note */}
           <p className="mt-5 text-sm text-charcoal-light">
             Recurring plans start at{" "}
-            <span className="font-semibold text-teal-dark">$120</span> per
+            <span className="font-semibold text-teal-dark">$155</span> per
             visit. Final pricing depends on home size and selected add-ons.
           </p>
+
+          {/* Sub-service links */}
+          <div className="mt-6 flex flex-wrap gap-4">
+            <Link
+              href="/services/recurring-cleaning"
+              className="inline-flex items-center px-5 py-2.5 rounded-full border-2 border-teal text-teal-dark text-sm font-semibold hover:bg-teal-light/20 transition-colors"
+            >
+              Recurring Cleaning &rarr;
+            </Link>
+            <Link
+              href="/services/deep-cleaning"
+              className="inline-flex items-center px-5 py-2.5 rounded-full border-2 border-teal text-teal-dark text-sm font-semibold hover:bg-teal-light/20 transition-colors"
+            >
+              Deep Cleaning &rarr;
+            </Link>
+          </div>
 
           {/* Checklist Cards */}
           <div className="mt-12 grid md:grid-cols-3 gap-8">

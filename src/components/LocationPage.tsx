@@ -112,10 +112,10 @@ function buildJsonLd(location: Location) {
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": `https://cincymaid.com/service-areas/${location.slug}#business`,
-        name: "CincyMaid",
+        "@id": `https://cincymaid.com/locations/${location.slug}#business`,
+        name: "Cincy Maid",
         description: `Professional house cleaning services in ${location.name}, ${location.state}. Trusted by local families for thorough, reliable home care.`,
-        url: `https://cincymaid.com/service-areas/${location.slug}`,
+        url: `https://cincymaid.com/locations/${location.slug}`,
         telephone: "(513) 951-7799",
         email: "admin@cincymaid.com",
         address: {
@@ -133,13 +133,20 @@ function buildJsonLd(location: Location) {
           },
         },
         priceRange: "$$",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.9",
+          reviewCount: "33",
+          bestRating: "5",
+          worstRating: "1",
+        },
       },
       {
         "@type": "Service",
-        "@id": `https://cincymaid.com/service-areas/${location.slug}#service`,
+        "@id": `https://cincymaid.com/locations/${location.slug}#service`,
         name: "House Cleaning Service",
         provider: {
-          "@id": `https://cincymaid.com/service-areas/${location.slug}#business`,
+          "@id": `https://cincymaid.com/locations/${location.slug}#business`,
         },
         areaServed: {
           "@type": "City",
@@ -193,13 +200,51 @@ function buildJsonLd(location: Location) {
             "@type": "ListItem",
             position: 2,
             name: "Service Areas",
-            item: "https://cincymaid.com/service-areas",
+            item: "https://cincymaid.com/locations",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: `${location.name} House Cleaning`,
-            item: `https://cincymaid.com/service-areas/${location.slug}`,
+            item: `https://cincymaid.com/locations/${location.slug}`,
+          },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `https://cincymaid.com/locations/${location.slug}#faq`,
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `How much does house cleaning cost in ${location.name}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `House cleaning in ${location.name} starts at $155. Final pricing depends on your home size, number of bedrooms and bathrooms, and any add-on services. Get your instant quote online at cincymaid.com — no phone call required.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Does Cincy Maid serve ${location.name}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Yes. Cincy Maid provides professional house cleaning throughout ${location.name}, ${location.state}. We offer recurring weekly, biweekly, and monthly service, as well as one-time deep cleans and move-in/move-out cleaning. Book online or call (513) 951-7799.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Are Cincy Maid cleaners background-checked?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes. Every Cincy Maid cleaner passes a comprehensive background check and in-person interview before their first booking. All cleaners are fully insured.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What is Cincy Maid's satisfaction guarantee?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Every full-home clean is backed by a 100% satisfaction guarantee. If anything was missed or doesn't meet your expectations, contact us within 24 hours and we will send a cleaner back to re-clean the area at no charge.",
+            },
           },
         ],
       },

@@ -7,26 +7,26 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 /*  Metadata                                                          */
 /* ------------------------------------------------------------------ */
 export const metadata: Metadata = {
-  title: "CincyMaid | Professional House Cleaning in Cincinnati, OH",
+  title: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
   description:
-    "CincyMaid delivers meticulous house cleaning across Cincinnati, Mason, West Chester, Hyde Park, and nearby neighborhoods. Background-checked teams, eco-friendly supplies, and flexible scheduling. Starting at $120. Book online today!",
+    "Cincy Maid delivers meticulous house cleaning across Cincinnati, Mason, West Chester, Hyde Park, and nearby neighborhoods. Background-checked teams, eco-friendly supplies, and flexible scheduling. Starting at $155. Book online today!",
   alternates: {
     canonical: "https://cincymaid.com",
   },
   openGraph: {
-    title: "CincyMaid | Professional House Cleaning in Cincinnati, OH",
+    title: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
     description:
-      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, eco-friendly supplies, flexible scheduling. Starting at $120.",
+      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, eco-friendly supplies, flexible scheduling. Starting at $155.",
     url: "https://cincymaid.com",
-    siteName: "CincyMaid",
+    siteName: "Cincy Maid",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CincyMaid | Professional House Cleaning in Cincinnati, OH",
+    title: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
     description:
-      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, eco-friendly supplies, flexible scheduling. Starting at $120.",
+      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, eco-friendly supplies, flexible scheduling. Starting at $155.",
   },
 };
 
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const cleaningServiceSchema = {
   "@context": "https://schema.org",
   "@type": "CleaningService" as const,
-  name: "CincyMaid",
+  name: "Cincy Maid",
   url: "https://cincymaid.com",
   logo: "https://cincymaid.com/logo.png",
   image: "https://cincymaid.com/og-image.jpg",
@@ -93,20 +93,22 @@ const cleaningServiceSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "312",
+    reviewCount: "33",
     bestRating: "5",
     worstRating: "1",
   },
   sameAs: [
-    "https://www.facebook.com/cincymaid",
+    "https://www.facebook.com/profile.php?id=61569299643785",
     "https://www.instagram.com/cincymaid",
+    "https://www.yelp.com/biz/cincy-maid-loveland",
+    "https://nextdoor.com/pages/cincy-maid/",
   ],
 };
 
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "How to Book a Cleaning with CincyMaid",
+  name: "How to Book a Cleaning with Cincy Maid",
   description:
     "Schedule a professional house cleaning in Cincinnati in three simple steps.",
   step: [
@@ -133,19 +135,19 @@ const howToSchema = {
 
 const faqItems = [
   {
-    question: "What areas around Cincinnati does CincyMaid serve?",
+    question: "What areas around Cincinnati does Cincy Maid serve?",
     answer:
       "We serve the Greater Cincinnati area including Mason, West Chester, Hyde Park, Oakley, Mt. Lookout, Anderson Township, Madeira, Indian Hill, Blue Ash, Kenwood, Loveland, Montgomery, and Mariemont. If you are unsure whether we cover your neighborhood, call us at (513) 951-7799 and we will let you know right away.",
   },
   {
     question: "How much does a house cleaning cost in Cincinnati?",
     answer:
-      "Our residential cleanings start at $120. Final pricing depends on the size of your home, the level of cleaning you need, and any add-on services such as interior oven or refrigerator cleaning. You will always see your exact price before confirming your booking — no surprises.",
+      "Our residential cleanings start at $155. Final pricing depends on the size of your home, the level of cleaning you need, and any add-on services such as interior oven or refrigerator cleaning. You will always see your exact price before confirming your booking — no surprises.",
   },
   {
     question: "Are your cleaning teams background-checked?",
     answer:
-      "Absolutely. Every CincyMaid team member passes a thorough background screening before they ever enter a client's home. We also carry full liability insurance so you have total peace of mind.",
+      "Absolutely. Every Cincy Maid team member passes a thorough background screening before they ever enter a client's home. We also carry full liability insurance so you have total peace of mind.",
   },
   {
     question: "What cleaning products do you use?",
@@ -172,6 +174,26 @@ const faqItems = [
     answer:
       "We recommend booking at least 48 hours ahead to guarantee your preferred date and time, especially during busy seasons. However, we do our best to accommodate same-week requests across the Cincinnati area whenever availability allows.",
   },
+  {
+    question: "How often should I have my house cleaned?",
+    answer:
+      "Most Cincinnati families choose biweekly service — it keeps the home consistently clean without the cost of weekly visits. If you have kids, pets, or entertain frequently, weekly service may be a better fit. A monthly clean works well for smaller homes or as a supplement to your own cleaning routine.",
+  },
+  {
+    question: "Is it worth hiring a house cleaner?",
+    answer:
+      "For busy Cincinnati families, hiring a cleaner typically saves 3–5 hours per week and reduces stress significantly. Many clients tell us the biggest benefit isn't the clean home — it's getting their weekends back. With recurring plans starting at $155, most families find the cost reasonable compared to the time and energy they save.",
+  },
+  {
+    question: "How do I prepare for a house cleaning?",
+    answer:
+      "You do not need to do much. We ask that you pick up loose items from floors and surfaces so our team can clean efficiently. Secure pets if needed. You do not need to be home — many Cincinnati clients provide a key or garage code. That is all.",
+  },
+  {
+    question: "Do I need to provide cleaning supplies?",
+    answer:
+      "No. Our teams arrive fully equipped with professional, eco-friendly cleaning products and all necessary equipment. If you have a preference for a specific product or have a surface that requires special care, let us know during booking and we will accommodate it.",
+  },
 ];
 
 const faqSchema = {
@@ -190,7 +212,7 @@ const faqSchema = {
 const speakableSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "CincyMaid | Professional House Cleaning in Cincinnati, OH",
+  name: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
   speakable: {
     "@type": "SpeakableSpecification",
     cssSelector: [
@@ -442,7 +464,7 @@ export default function HomePage() {
               >
                 CincyMaid pairs background-checked cleaning professionals with
                 eco-friendly products to give Cincinnati homes a thorough,
-                worry-free clean — on your schedule, starting at just $120.
+                worry-free clean — on your schedule, starting at just $155.
               </p>
 
               {/* CTAs */}

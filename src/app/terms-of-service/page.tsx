@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | CincyMaid",
+  title: "Terms of Service | Cincy Maid",
   description:
-    "CincyMaid terms of service. Review the terms and conditions that govern your use of our cleaning services and website.",
+    "Cincy Maid terms of service. Review the terms and conditions that govern your use of our cleaning services and website.",
 };
 
 export default function TermsOfServicePage() {
@@ -19,7 +19,7 @@ export default function TermsOfServicePage() {
           <p className="text-charcoal-light text-lg leading-relaxed mb-6">
             Our full terms of service are coming soon. We are working on
             documenting the terms and conditions that govern your use of
-            CincyMaid services and our website.
+            Cincy Maid services and our website.
           </p>
 
           <p className="text-charcoal-light text-lg leading-relaxed">

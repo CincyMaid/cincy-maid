@@ -3,18 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Story — Meet the Team Behind CincyMaid",
+  title: "Our Story — Meet the Team Behind Cincy Maid",
   description:
-    "Learn how CincyMaid became Cincinnati's go-to residential cleaning service. Discover our values, meet the people who make every home shine, and see why families across the Queen City trust us.",
+    "Learn how Cincy Maid became Cincinnati's go-to residential cleaning service. Discover our values, meet the people who make every home shine, and see why families across the Queen City trust us.",
   alternates: {
     canonical: "https://cincymaid.com/about",
   },
 };
 
 const stats = [
-  { value: "2,000+", label: "Happy Households" },
+  { value: "100s of", label: "Happy Customers" },
   { value: "4.9★", label: "Average Rating" },
-  { value: "8+", label: "Years Serving Cincy" },
+  { value: "Est. 2024", label: "Founded in Cincinnati" },
   { value: "100%", label: "Satisfaction Promise" },
 ];
 
@@ -121,7 +121,7 @@ const teamQualities = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "CincyMaid",
+  name: "Cincy Maid",
   url: "https://cincymaid.com",
   logo: "https://cincymaid.com/logo.jpg",
   description:
@@ -139,7 +139,12 @@ const jsonLd = {
     name: "Cincinnati",
     sameAs: "https://en.wikipedia.org/wiki/Cincinnati",
   },
-  sameAs: [],
+  sameAs: [
+    "https://www.facebook.com/profile.php?id=61569299643785",
+    "https://www.instagram.com/cincymaid",
+    "https://www.yelp.com/biz/cincy-maid-loveland",
+    "https://nextdoor.com/pages/cincy-maid/",
+  ],
 };
 
 export default function AboutPage() {

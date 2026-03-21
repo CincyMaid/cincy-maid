@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact Us | CincyMaid",
+  title: "Contact Us | Cincy Maid",
   description:
-    "Reach out to CincyMaid for house cleaning questions, booking help, or commercial inquiries. Serving Cincinnati, Hyde Park, Mason, West Chester, and more.",
+    "Reach out to Cincy Maid for house cleaning questions, booking help, or commercial inquiries. Serving Cincinnati, Hyde Park, Mason, West Chester, and more.",
   alternates: {
     canonical: "https://cincymaid.com/contact",
   },

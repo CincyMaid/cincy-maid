@@ -25,8 +25,8 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | CincyMaid",
-    default: "CincyMaid | Trusted Home Cleaning in Cincinnati, OH",
+    template: "%s | Cincy Maid",
+    default: "Cincy Maid | Trusted Home Cleaning in Cincinnati, OH",
   },
   description:
     "Professional house cleaning services in Cincinnati, Mason, West Chester, Hyde Park, Oakley, and surrounding areas. Reliable, thorough, and tailored to your home. Book your cleaning today!",
@@ -52,14 +52,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://cincymaid.com",
-    siteName: "CincyMaid",
-    title: "CincyMaid | Trusted Home Cleaning in Cincinnati, OH",
+    siteName: "Cincy Maid",
+    title: "Cincy Maid | Trusted Home Cleaning in Cincinnati, OH",
     description:
       "Professional house cleaning services in Cincinnati and surrounding areas. Reliable, thorough, and tailored to your home.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CincyMaid | Trusted Home Cleaning in Cincinnati, OH",
+    title: "Cincy Maid | Trusted Home Cleaning in Cincinnati, OH",
     description:
       "Professional house cleaning services in Cincinnati and surrounding areas. Reliable, thorough, and tailored to your home.",
   },

@@ -3,9 +3,9 @@ import Link from "next/link";
 import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 
 export const metadata: Metadata = {
-  title: "Gift Cards | CincyMaid",
+  title: "Gift Cards | Cincy Maid",
   description:
-    "Send a CincyMaid gift card for any occasion — birthdays, holidays, new homeowners, and more. Delivered by email, redeemable for any cleaning service in Cincinnati.",
+    "Send a Cincy Maid gift card for any occasion — birthdays, holidays, new homeowners, and more. Delivered by email, redeemable for any cleaning service in Cincinnati.",
   alternates: {
     canonical: "https://cincymaid.com/gift-cards",
   },
@@ -60,7 +60,7 @@ export default function GiftCardsPage() {
             Send a Sparkling Surprise
           </h1>
           <p className="mt-4 text-lg text-charcoal-light max-w-2xl mx-auto">
-            A CincyMaid gift card lets someone you care about enjoy a
+            A Cincy Maid gift card lets someone you care about enjoy a
             professionally cleaned home — no wrapping paper required. Choose any
             amount and we&apos;ll deliver it straight to their inbox.
           </p>

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Quote Request Received | CincyMaid",
+  title: "Quote Request Received | Cincy Maid",
   description:
-    "Your commercial cleaning quote request has been received. CincyMaid will review your details and provide a custom quote within 24 hours.",
+    "Your commercial cleaning quote request has been received. Cincy Maid will review your details and provide a custom quote within 24 hours.",
 };
 
 export default function ThankYouCommercialPage() {
@@ -41,7 +41,7 @@ export default function ThankYouCommercialPage() {
           </h1>
 
           <p className="text-lg sm:text-xl text-white/85 leading-relaxed max-w-xl mx-auto">
-            Thank you for your interest in CincyMaid commercial cleaning
+            Thank you for your interest in Cincy Maid commercial cleaning
             services. Our team is reviewing your request and will be in touch
             shortly.
           </p>
