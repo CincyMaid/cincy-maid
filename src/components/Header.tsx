@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/locations", label: "Service Areas" },
   { href: "/gift-cards", label: "Gift Cards" },
   { href: "/careers", label: "Join Our Team" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 
