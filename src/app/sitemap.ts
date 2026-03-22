@@ -36,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "signs-you-need-a-house-cleaner",
     "how-to-prepare-for-cleaning-service",
     "spring-cleaning-checklist-cincinnati",
+    "how-much-does-house-cleaning-cost-cincinnati",
   ];
 
   const blogPages: MetadataRoute.Sitemap = blogSlugs.map((slug) => ({

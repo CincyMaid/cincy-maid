@@ -38,6 +38,13 @@ const articles = [
       "Room-by-room spring cleaning checklist tailored for Cincinnati homes, including seasonal tasks most people forget.",
     published: true,
   },
+  {
+    title: "How Much Does House Cleaning Cost in Cincinnati?",
+    slug: "how-much-does-house-cleaning-cost-cincinnati",
+    description:
+      "Recurring starts at $155. Deep cleans, move-out cleans, and hourly options explained — with real pricing and what affects the final number.",
+    published: true,
+  },
 ];
 
 export default function BlogIndexPage() {
