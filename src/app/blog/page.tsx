@@ -49,6 +49,14 @@ const articles = [
     category: "Pricing",
     published: true,
   },
+  {
+    title: "How Often Should You Clean Your Home?",
+    slug: "how-often-should-you-clean-your-home",
+    description:
+      "A room-by-room cleaning frequency guide — daily habits to seasonal deep cleans. What Cincinnati pros recommend.",
+    category: "Tips",
+    published: true,
+  },
 ];
 
 /* Cleaning-related SVG icons by category */
