@@ -6,7 +6,7 @@ import Link from "next/link";
 /* ------------------------------------------------------------------ */
 
 export const metadata: Metadata = {
-  title: "How to Prepare for a House Cleaning Service | Cincy Maid",
+  title: "How to Prepare for a House Cleaning Service",
   description:
     "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare — and what you don't need to bother with.",
   alternates: {

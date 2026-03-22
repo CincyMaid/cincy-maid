@@ -7,7 +7,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 /* ------------------------------------------------------------------ */
 
 export const metadata: Metadata = {
-  title: "Recurring House Cleaning in Cincinnati | Cincy Maid",
+  title: "Recurring House Cleaning in Cincinnati",
   description:
     "Weekly, biweekly, and monthly recurring house cleaning in Cincinnati. Starting at $155 per visit with up to 20% off for recurring clients. Background-checked teams, eco-friendly supplies, 100% satisfaction guarantee. Book online today.",
   alternates: {

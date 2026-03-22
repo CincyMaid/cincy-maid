@@ -6,7 +6,7 @@ import Link from "next/link";
 /* ------------------------------------------------------------------ */
 
 export const metadata: Metadata = {
-  title: "Spring Cleaning Checklist for Cincinnati Homeowners | Cincy Maid",
+  title: "Spring Cleaning Checklist for Cincinnati Homeowners",
   description:
     "A room-by-room spring cleaning checklist for Cincinnati homes — including the seasonal tasks most people forget every year.",
   alternates: {

@@ -4,7 +4,7 @@ import locations from "@/data/locations.json";
 import type { Location } from "@/data/types";
 
 export const metadata: Metadata = {
-  title: "Service Areas | Cincy Maid — 33 Communities in Greater Cincinnati",
+  title: "Service Areas — 33 Communities in Greater Cincinnati",
   description:
     "Cincy Maid serves 33 communities across Greater Cincinnati including Cincinnati, Mason, West Chester, Hyde Park, and more. Professional house cleaning wherever you call home.",
   alternates: {

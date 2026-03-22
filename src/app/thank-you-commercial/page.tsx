@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Quote Request Received | Cincy Maid",
+  title: "Quote Request Received",
   description:
     "Your commercial cleaning quote request has been received. Cincy Maid will review your details and provide a custom quote within 24 hours.",
 };

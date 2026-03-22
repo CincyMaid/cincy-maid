@@ -3,7 +3,7 @@ import Link from "next/link";
 import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 
 export const metadata: Metadata = {
-  title: "Gift Cards | Cincy Maid",
+  title: "Gift Cards",
   description:
     "Send a Cincy Maid gift card for any occasion — birthdays, holidays, new homeowners, and more. Delivered by email, redeemable for any cleaning service in Cincinnati.",
   alternates: {

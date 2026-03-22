@@ -41,11 +41,11 @@ export async function generateMetadata({
   const post = posts[slug];
 
   if (!post) {
-    return { title: "Post Not Found | Cincy Maid" };
+    return { title: "Post Not Found" };
   }
 
   return {
-    title: `${post.title} | Cincy Maid`,
+    title: post.title,
     description: post.description,
     alternates: {
       canonical: `https://cincymaid.com/blog/${post.slug}`,

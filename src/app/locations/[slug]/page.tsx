@@ -24,7 +24,8 @@ export async function generateMetadata({
     return { title: "Location Not Found" };
   }
 
-  const title = `${location.name} House Cleaning Services | Cincy Maid`;
+  const ogTitle = `${location.name} House Cleaning Services | Cincy Maid`;
+  const title = `${location.name} House Cleaning Services`;
   const description = `Professional house cleaning in ${location.name}, ${location.state}. ${location.local_character.slice(0, 140)}...`;
   const url = `https://cincymaid.com/locations/${location.slug}`;
 
@@ -35,7 +36,7 @@ export async function generateMetadata({
       canonical: url,
     },
     openGraph: {
-      title,
+      title: ogTitle,
       description,
       url,
     },

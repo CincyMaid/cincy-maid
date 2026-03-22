@@ -7,7 +7,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 /*  Metadata                                                          */
 /* ------------------------------------------------------------------ */
 export const metadata: Metadata = {
-  title: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
+  title: { absolute: "Cincy Maid | Professional House Cleaning in Cincinnati, OH" },
   description:
     "Cincy Maid delivers meticulous house cleaning across Cincinnati, Mason, West Chester, Hyde Park, and nearby neighborhoods. Background-checked teams, eco-friendly supplies, and flexible scheduling. Starting at $155. Book online today!",
   alternates: {

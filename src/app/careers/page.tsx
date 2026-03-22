@@ -4,7 +4,7 @@ import Link from "next/link";
 import ApplicationForm from "@/components/ApplicationForm";
 
 export const metadata: Metadata = {
-  title: "Careers | Cincy Maid",
+  title: "Careers",
   description:
     "Now hiring house cleaners in Cincinnati, OH. Flexible hours, competitive pay, and a team that has your back. Apply to Cincy Maid today.",
   alternates: {

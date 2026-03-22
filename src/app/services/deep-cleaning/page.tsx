@@ -7,7 +7,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 /* ------------------------------------------------------------------ */
 
 export const metadata: Metadata = {
-  title: "Deep Cleaning Service Cincinnati, OH | Cincy Maid",
+  title: "Deep Cleaning Service Cincinnati, OH",
   description:
     "Professional deep cleaning service in Cincinnati. Inside appliances, baseboards, grout, window sills, and more. Perfect before starting recurring service, seasonal refreshes, or move-in/move-out. Background-checked teams, 100% satisfaction guarantee. Book online today.",
   alternates: {

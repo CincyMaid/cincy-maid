@@ -6,7 +6,7 @@ import Link from "next/link";
 /* ------------------------------------------------------------------ */
 
 export const metadata: Metadata = {
-  title: "5 Signs It's Time to Hire a House Cleaner in Cincinnati | Cincy Maid",
+  title: "5 Signs It's Time to Hire a House Cleaner in Cincinnati",
   description:
     "Not sure if you should hire a house cleaner in Cincinnati? Here are 5 honest signs it might be time — from weekend burnout to lowered standards. Learn when professional help makes sense.",
   alternates: {
