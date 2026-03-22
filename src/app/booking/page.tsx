@@ -5,7 +5,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: "Book Your Cincinnati Home Cleaning in Minutes",
   description:
-    "Schedule a professional house cleaning in Cincinnati, OH with instant pricing and zero hidden fees. Pick your date, customize your clean, and pay only after we're done.",
+    "Book a Cincinnati house cleaning in minutes. Instant pricing, no hidden fees — pay after we clean. Schedule online now!",
   alternates: {
     canonical: "https://cincymaid.com/booking",
   },

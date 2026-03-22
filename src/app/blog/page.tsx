@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "House Cleaning Tips & Cincinnati Home Guides",
   description:
-    "Practical house cleaning tips, Cincinnati home care guides, and honest advice from the Cincy Maid team. Learn how to keep your home spotless — or let us handle it.",
+    "Cleaning tips, Cincinnati home guides, and honest advice from Cincy Maid. Keep your home spotless — or let us do it.",
   alternates: {
     canonical: "https://cincymaid.com/blog",
   },

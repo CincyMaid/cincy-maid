@@ -26,7 +26,7 @@ export async function generateMetadata({
 
   const ogTitle = `${location.name} House Cleaning Services | Cincy Maid`;
   const title = `${location.name} House Cleaning Services`;
-  const description = `Professional house cleaning in ${location.name}, ${location.state}. ${location.local_character.slice(0, 140)}...`;
+  const description = `Professional house cleaning in ${location.name}, ${location.state}. Trusted, background-checked cleaners starting at $155. Book online!`;
   const url = `https://cincymaid.com/locations/${location.slug}`;
 
   return {

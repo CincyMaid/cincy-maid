@@ -6,14 +6,14 @@ import type { Location } from "@/data/types";
 export const metadata: Metadata = {
   title: "Service Areas — 33 Communities in Greater Cincinnati",
   description:
-    "Cincy Maid serves 33 communities across Greater Cincinnati including Cincinnati, Mason, West Chester, Hyde Park, and more. Professional house cleaning wherever you call home.",
+    "Cincy Maid serves 33 neighborhoods across Greater Cincinnati — Mason, Hyde Park, West Chester, and more. Find your area!",
   alternates: {
     canonical: "https://cincymaid.com/locations",
   },
   openGraph: {
     title: "Service Areas | Cincy Maid — 33 Communities in Greater Cincinnati",
     description:
-      "Cincy Maid serves 33 communities across Greater Cincinnati including Cincinnati, Mason, West Chester, Hyde Park, and more. Professional house cleaning wherever you call home.",
+      "Cincy Maid serves 33 neighborhoods across Greater Cincinnati — Mason, Hyde Park, West Chester, and more. Find your area!",
     url: "https://cincymaid.com/locations",
   },
 };

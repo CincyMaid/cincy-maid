@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Us — Cincinnati's Trusted House Cleaning Team",
   description:
-    "Learn how Cincy Maid became Cincinnati's go-to residential cleaning service. Discover our values, meet the people who make every home shine, and see why families across the Queen City trust us.",
+    "Meet the Cincy Maid team — locally owned in Cincinnati, founded in 2024. Background-checked cleaners, honest pricing. Learn our story.",
   alternates: {
     canonical: "https://cincymaid.com/about",
   },

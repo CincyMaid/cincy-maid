@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "5 Signs It's Time to Hire a House Cleaner in Cincinnati",
   description:
-    "Not sure if you should hire a house cleaner in Cincinnati? Here are 5 honest signs it might be time — from weekend burnout to lowered standards. Learn when professional help makes sense.",
+    "5 honest signs it's time to hire a house cleaner in Cincinnati — from weekend burnout to lowered standards. See if it's time.",
   alternates: {
     canonical:
       "https://cincymaid.com/blog/signs-you-need-a-house-cleaner",
