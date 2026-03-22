@@ -245,6 +245,26 @@ export default function CommercialPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Cincy Maid",
+          "@id": "https://cincymaid.com/#business",
+          "url": "https://cincymaid.com",
+          "telephone": "(513) 951-7799",
+          "email": "admin@cincymaid.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cincinnati",
+            "addressRegion": "OH",
+            "postalCode": "45202",
+            "addressCountry": "US"
+          },
+          "priceRange": "$$"
+        }) }}
+      />
 
       {/* ── Hero ── */}
       <section className="bg-cream">
