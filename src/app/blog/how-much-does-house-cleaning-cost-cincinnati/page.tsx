@@ -50,7 +50,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "How much does house cleaning cost in Cincinnati?",
-      acceptedAnswer: { "@type": "Answer", text: "Recurring house cleaning in Cincinnati starts at $155 per visit with Cincy Maid. Final pricing depends on your home size, number of bedrooms and bathrooms, and how often we clean. Weekly clients save up to 20% compared to one-time rates. Deep cleans and move-in/move-out cleans are priced higher based on home size." },
+      acceptedAnswer: { "@type": "Answer", text: "Recurring biweekly cleaning in Cincinnati starts at $132 per visit for a 1-bedroom home with Cincy Maid. A 2-bedroom home runs $157–$174 biweekly depending on bathrooms. A 3-bedroom, 2-bathroom home typically runs $204–$225 biweekly. A 4-bedroom home runs $268–$315 biweekly. Prices are based on bedrooms, bathrooms, and square footage. One-time cleaning is priced higher — enter your home details at cincymaid.com/booking for an instant exact quote." },
     },
     {
       "@type": "Question",
@@ -108,6 +108,60 @@ export default function HowMuchDoesHouseCleaningCostPost() {
               Pricing can feel like a black box with cleaning companies — vague estimates, callbacks required, surprises at checkout. This post breaks it down clearly so you know exactly what to expect before you book.
             </p>
 
+            {/* ── Pricing Table Section ── */}
+            <h2 className="font-[family-name:var(--font-playfair)] text-2xl md:text-3xl font-bold text-charcoal pt-4">
+              Cincinnati House Cleaning Prices by Home Size
+            </h2>
+            <p>
+              Pricing is built from three inputs: bedrooms (base price), bathrooms (+$20 each), and square footage (surcharge applies at 1,500 sq ft and above). The table below shows realistic totals for the most common Cincinnati home sizes — biweekly rates reflect the 15% recurring discount.
+            </p>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="w-full text-sm border-collapse min-w-[520px]">
+                <thead>
+                  <tr className="bg-cream">
+                    <th className="text-left px-4 py-3 font-semibold text-charcoal border-b border-sand-light">
+                      Home Size
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-charcoal border-b border-sand-light">
+                      Typical Sq Ft
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-charcoal border-b border-sand-light">
+                      <span className="inline-flex items-center gap-2">
+                        Biweekly
+                        <span className="text-xs font-semibold bg-teal text-white px-2 py-0.5 rounded-full">
+                          Most Popular
+                        </span>
+                      </span>
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-charcoal border-b border-sand-light">
+                      One-Time
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { size: "1 bed / 1 bath", sqft: "under 1,000", biweekly: "$132", onetime: "$155" },
+                    { size: "2 bed / 1 bath", sqft: "900–1,400", biweekly: "$157", onetime: "$185" },
+                    { size: "2 bed / 2 bath", sqft: "900–1,400", biweekly: "$174", onetime: "$205" },
+                    { size: "3 bed / 2 bath", sqft: "1,400–2,000", biweekly: "$204–$225", onetime: "$240–$265" },
+                    { size: "4 bed / 2 bath", sqft: "1,800–2,500", biweekly: "$268–$281", onetime: "$315–$330" },
+                    { size: "4 bed / 3 bath", sqft: "2,000–3,000", biweekly: "$298–$315", onetime: "$350–$370" },
+                  ].map((row, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-cream/40"}>
+                      <td className="px-4 py-3 font-medium text-charcoal border-b border-sand-light">{row.size}</td>
+                      <td className="px-4 py-3 text-charcoal-light border-b border-sand-light">{row.sqft}</td>
+                      <td className="px-4 py-3 font-semibold text-teal border-b border-sand-light">{row.biweekly}</td>
+                      <td className="px-4 py-3 text-charcoal-light border-b border-sand-light">{row.onetime}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-sm text-charcoal-light">
+              Ranges reflect the square footage surcharge: +$25 at 1,500–1,999 sq ft, +$40 at 2,000–2,499 sq ft, +$60 at 2,500–2,999 sq ft. Weekly service saves an additional 5% over biweekly. The booking form calculates your exact price automatically — enter your bedroom and bathroom count to see your number.
+            </p>
+
+            {/* Section 1 */}
             <h2 className="font-[family-name:var(--font-playfair)] text-2xl md:text-3xl font-bold text-charcoal pt-4">
               Recurring Cleaning: Starting at $155
             </h2>
