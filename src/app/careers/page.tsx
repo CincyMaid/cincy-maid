@@ -106,9 +106,57 @@ const requirements = [
   "Strong communication skills",
 ];
 
+const jobPostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  title: "House Cleaner",
+  description:
+    "Cincy Maid is hiring professional house cleaners in Cincinnati, OH. Flexible scheduling, competitive pay, and a supportive team. Background check required.",
+  datePosted: "2025-01-01",
+  validThrough: "2026-12-31",
+  employmentType: "PART_TIME",
+  hiringOrganization: {
+    "@type": "Organization",
+    name: "Cincy Maid",
+    sameAs: "https://cincymaid.com",
+    logo: "https://cincymaid.com/logo.png",
+  },
+  jobLocation: {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Greater Cincinnati Area",
+      addressLocality: "Cincinnati",
+      addressRegion: "OH",
+      postalCode: "45202",
+      addressCountry: "US",
+    },
+  },
+  baseSalary: {
+    "@type": "MonetaryAmount",
+    currency: "USD",
+    value: {
+      "@type": "QuantitativeValue",
+      minValue: 30,
+      maxValue: 50,
+      unitText: "HOUR",
+    },
+  },
+  qualifications:
+    "Reliable transportation required. Background check required. Attention to detail and a positive attitude.",
+  jobBenefits:
+    "Flexible scheduling, competitive pay $30–$50/hr, paid every two weeks, supportive management team",
+};
+
 export default function CareersPage() {
   return (
     <>
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}
+      />
+
       {/* Hero */}
       <section className="bg-cream py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-10 items-center">
@@ -128,11 +176,11 @@ export default function CareersPage() {
               src="/images/careers-hero.jpg"
               alt="Cincy Maid team member ready for a cleaning assignment"
               fill
-              className="object-cover"
+              className="object-cover brand-tint"
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply rounded-2xl" />
+            <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
           </div>
         </div>
       </section>

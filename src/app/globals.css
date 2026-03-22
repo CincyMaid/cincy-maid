@@ -31,6 +31,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Brand purple tint on all site images */
+.brand-tint {
+  filter: sepia(0.3) hue-rotate(240deg) saturate(1.1);
+}
+.brand-tint-overlay {
+  background: rgba(150, 136, 181, 0.4);
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {
