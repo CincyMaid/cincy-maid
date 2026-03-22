@@ -44,9 +44,9 @@ const cleaningServiceSchema = {
   email: "admin@cincymaid.com",
   description:
     "Professional house cleaning services across Cincinnati, OH and surrounding communities. Background-checked teams, eco-friendly products, and satisfaction guaranteed.",
+  foundingDate: "2024",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "",
     addressLocality: "Cincinnati",
     addressRegion: "OH",
     postalCode: "45202",
@@ -452,9 +452,9 @@ export default function HomePage() {
                 id="hero-heading"
                 className="font-[family-name:var(--font-playfair)] text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
               >
-                Your Week Is Busy Enough.{" "}
-                <span className="text-coral-light">
-                  Let Us Handle the Dust.
+                Cincinnati&apos;s Trusted House Cleaning Service{" "}
+                <span className="text-teal">
+                  So Your Weekends Are Actually Yours.
                 </span>
               </h1>
 

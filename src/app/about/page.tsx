@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: "100s of", label: "Happy Customers" },
+  { value: "200+", label: "Happy Customers" },
   { value: "4.9★", label: "Average Rating" },
   { value: "Est. 2024", label: "Founded in Cincinnati" },
   { value: "100%", label: "Satisfaction Promise" },
@@ -126,6 +126,7 @@ const jsonLd = {
   logo: "https://cincymaid.com/logo.jpg",
   description:
     "Professional residential cleaning services in Cincinnati, OH and surrounding communities.",
+  foundingDate: "2024",
   telephone: "(513) 951-7799",
   email: "admin@cincymaid.com",
   address: {
@@ -147,6 +148,45 @@ const jsonLd = {
   ],
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "When was Cincy Maid founded?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Cincy Maid was founded in 2024 in Cincinnati, Ohio. We are locally owned and operated — not a franchise — serving Greater Cincinnati and Northern Kentucky.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are Cincy Maid cleaners background-checked?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Every Cincy Maid team member passes identity verification, a criminal background check, and an in-person interview before their first booking. All cleaners are fully insured and bonded.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is Cincy Maid's satisfaction guarantee?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "If anything is missed or doesn't meet your expectations, contact us within 24 hours and we will send a team back to make it right at no additional charge. Your satisfaction is guaranteed on every visit.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Cincy Maid a franchise or locally owned?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Cincy Maid is independently owned and operated — not a franchise. We are a local Cincinnati business, founded in 2024, committed to serving our community with consistent, professional home cleaning.",
+      },
+    },
+  ],
+};
+
 export default function AboutPage() {
   return (
     <>
@@ -155,13 +195,17 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
 
       {/* ── Hero ── */}
       <section className="bg-cream py-20 md:py-28">
         <div className="mx-auto max-w-6xl px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal leading-tight">
-              Built in Cincinnati, Dedicated to Your&nbsp;Home
+              Cincinnati&apos;s House Cleaning Team — Built on Trust, Trained to a&nbsp;Standard
             </h1>
             <p className="mt-6 text-lg md:text-xl text-charcoal-light leading-relaxed">
               Cincy Maid started with a simple observation: too many Cincinnati
