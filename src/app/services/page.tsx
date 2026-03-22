@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "House Cleaning Services in Cincinnati, OH",
   description:
-    "Residential, commercial, and move-in/move-out cleaning services across Cincinnati. Recurring plans starting at $155. Trained teams, consistent results, flexible scheduling.",
+    "House cleaning services in Cincinnati — recurring, deep clean, move-in/move-out. Starting at $155. Background-checked teams. Book online.",
   alternates: {
     canonical: "https://cincymaid.com/services",
   },

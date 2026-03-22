@@ -5,7 +5,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: "Commercial Cleaning Services in Cincinnati, OH",
   description:
-    "Tailored office, retail, and workspace cleaning for Cincinnati businesses. Fully insured teams, after-hours availability, and custom schedules. Request a free quote today.",
+    "Commercial cleaning for Cincinnati offices, retail spaces, and workplaces. Fully insured, after-hours available. Request a free quote.",
   alternates: {
     canonical: "https://cincymaid.com/commercial",
   },
