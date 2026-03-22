@@ -132,6 +132,7 @@ export default function CareersPage() {
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
+            <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply rounded-2xl" />
           </div>
         </div>
       </section>

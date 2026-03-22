@@ -419,6 +419,7 @@ export default function HomePage() {
             priority
             sizes="100vw"
           />
+          <div className="absolute inset-0 bg-teal-dark/25 mix-blend-multiply" />
           <div className="absolute inset-0 bg-charcoal/35" />
         </div>
 
@@ -595,6 +596,7 @@ export default function HomePage() {
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
+                  <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply" />
                 </div>
                 <div className="p-8">
                   <h3 className="text-xl font-bold text-charcoal mb-3">
@@ -662,6 +664,7 @@ export default function HomePage() {
                     className="object-cover"
                     sizes="160px"
                   />
+                  <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply" />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-2xl font-bold text-teal/40">
                       {step.number}
@@ -718,6 +721,7 @@ export default function HomePage() {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
+                <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply rounded-2xl" />
               </div>
               <span className="inline-block text-teal font-semibold text-sm uppercase tracking-wider mb-3">
                 Your Peace of Mind

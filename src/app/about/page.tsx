@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Story — Meet the Team Behind Cincy Maid",
+  title: "About Us — Cincinnati's Trusted House Cleaning Team",
   description:
     "Learn how Cincy Maid became Cincinnati's go-to residential cleaning service. Discover our values, meet the people who make every home shine, and see why families across the Queen City trust us.",
   alternates: {
@@ -225,6 +225,7 @@ export default function AboutPage() {
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
+            <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply rounded-2xl" />
           </div>
         </div>
       </section>
@@ -330,6 +331,7 @@ export default function AboutPage() {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
+            <div className="absolute inset-0 bg-teal-dark/20 mix-blend-multiply rounded-2xl" />
           </div>
         </div>
       </section>
