@@ -296,11 +296,10 @@ export default function ServicesPage() {
               src="/images/services-hero.jpg"
               alt="Cincy Maid team member cleaning a bright Cincinnati living room"
               fill
-              className="object-cover brand-tint"
+              className="object-cover"
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
           </div>
         </div>
       </section>
@@ -314,10 +313,9 @@ export default function ServicesPage() {
               src="/images/residential-banner.jpg"
               alt="Freshly cleaned Cincinnati home interior with natural light"
               fill
-              className="object-cover brand-tint"
+              className="object-cover"
               sizes="100vw"
             />
-            <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
             <span className="absolute top-4 left-4 bg-coral text-white text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full shadow">
               Most Popular
             </span>
@@ -438,11 +436,10 @@ export default function ServicesPage() {
                 src="/images/office-space.jpg"
                 alt="Clean, professional Cincinnati office space maintained by Cincy Maid"
                 fill
-                className="object-cover brand-tint"
+                className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
-              <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
-            </div>
+              </div>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

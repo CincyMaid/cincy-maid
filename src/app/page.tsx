@@ -415,11 +415,10 @@ export default function HomePage() {
             src="/images/hero-home.jpg"
             alt="Bright, freshly cleaned Cincinnati home interior"
             fill
-            className="object-cover brand-tint"
+            className="object-cover"
             priority
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-[#9688B5]/40" />
           <div className="absolute inset-0 bg-charcoal/35" />
         </div>
 
@@ -593,10 +592,9 @@ export default function HomePage() {
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300 brand-tint"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-[#9688B5]/40" />
                 </div>
                 <div className="p-8">
                   <h3 className="text-xl font-bold text-charcoal mb-3">
@@ -661,10 +659,9 @@ export default function HomePage() {
                     src={step.image}
                     alt={step.title}
                     fill
-                    className="object-cover brand-tint"
+                    className="object-cover"
                     sizes="160px"
                   />
-                  <div className="absolute inset-0 bg-[#9688B5]/40" />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-2xl font-bold text-teal/40">
                       {step.number}
@@ -718,10 +715,9 @@ export default function HomePage() {
                   src="/images/cleaning-team.jpg"
                   alt="Cincy Maid cleaning team member at work in a Cincinnati home"
                   fill
-                  className="object-cover brand-tint"
+                  className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-                <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
               </div>
               <span className="inline-block text-teal font-semibold text-sm uppercase tracking-wider mb-3">
                 Your Peace of Mind

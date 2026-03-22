@@ -221,11 +221,10 @@ export default function AboutPage() {
               src="/images/about-hero.jpg"
               alt="Cincy Maid team delivering professional cleaning in Cincinnati"
               fill
-              className="object-cover brand-tint"
+              className="object-cover"
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
           </div>
         </div>
       </section>
@@ -328,10 +327,9 @@ export default function AboutPage() {
               src="/images/team-placeholder.jpg"
               alt="Cincy Maid cleaning professionals ready to serve Cincinnati homes"
               fill
-              className="object-cover brand-tint"
+              className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
           </div>
         </div>
       </section>

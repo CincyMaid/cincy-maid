@@ -176,11 +176,10 @@ export default function CareersPage() {
               src="/images/careers-hero.jpg"
               alt="Cincy Maid team member ready for a cleaning assignment"
               fill
-              className="object-cover brand-tint"
+              className="object-cover"
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
             />
-            <div className="absolute inset-0 bg-[#9688B5]/40 rounded-2xl" />
           </div>
         </div>
       </section>
