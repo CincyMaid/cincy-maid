@@ -61,7 +61,7 @@ export default function ApplicationForm() {
     );
 
     const body = encodeURIComponent(
-      `New Job Application from CincyMaid Careers Page
+      `New Job Application from Cincy Maid Careers Page
 
 Full Name: ${formData.fullName}
 Email: ${formData.email}
@@ -103,7 +103,7 @@ Desired Hours/Week: ${formData.hoursPerWeek}`
           Application Submitted!
         </h3>
         <p className="text-gray-600 mb-6">
-          Thank you for your interest in joining CincyMaid. Your email client
+          Thank you for your interest in joining Cincy Maid. Your email client
           should have opened with your application details. Please send the
           email to complete your submission. We&apos;ll review your application
           and get back to you soon.

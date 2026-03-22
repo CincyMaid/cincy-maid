@@ -129,7 +129,7 @@ const faqs = [
   {
     question: "Are your cleaners insured and background-checked?",
     answer:
-      "Yes. Every CincyMaid team member is fully insured, bonded, and has passed a thorough background check. We also conduct hands-on training before anyone is assigned to a client home.",
+      "Yes. Every Cincy Maid team member is fully insured, bonded, and has passed a thorough background check. We also conduct hands-on training before anyone is assigned to a client home.",
   },
   {
     question: "What areas of Cincinnati do you serve?",
@@ -294,7 +294,7 @@ export default function ServicesPage() {
             {/* Replace with actual hero image */}
             <Image
               src="/images/services-hero.jpg"
-              alt="CincyMaid team member cleaning a bright Cincinnati living room"
+              alt="Cincy Maid team member cleaning a bright Cincinnati living room"
               fill
               className="object-cover"
               priority
@@ -434,7 +434,7 @@ export default function ServicesPage() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-sand-light">
               <Image
                 src="/images/office-space.jpg"
-                alt="Clean, professional Cincinnati office space maintained by CincyMaid"
+                alt="Clean, professional Cincinnati office space maintained by Cincy Maid"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"

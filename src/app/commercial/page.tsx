@@ -97,7 +97,7 @@ const infoCards = [
   {
     title: "Insured & Bonded",
     description:
-      "Your business assets are protected. Every CincyMaid team member carries full liability coverage and has passed a comprehensive background screening before stepping foot in your facility.",
+      "Your business assets are protected. Every Cincy Maid team member carries full liability coverage and has passed a comprehensive background screening before stepping foot in your facility.",
   },
   {
     title: "After-Hours Available",
@@ -164,7 +164,7 @@ const faqs = [
   {
     question: "Do you carry commercial liability insurance?",
     answer:
-      "Yes. CincyMaid holds full commercial general liability insurance and bonding. We can provide a certificate of insurance for your records or your property management company upon request.",
+      "Yes. Cincy Maid holds full commercial general liability insurance and bonding. We can provide a certificate of insurance for your records or your property management company upon request.",
   },
   {
     question: "Can you handle multi-location accounts?",

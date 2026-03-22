@@ -164,7 +164,7 @@ export default function AboutPage() {
               Built in Cincinnati, Dedicated to Your&nbsp;Home
             </h1>
             <p className="mt-6 text-lg md:text-xl text-charcoal-light leading-relaxed">
-              CincyMaid started with a simple observation: too many Cincinnati
+              Cincy Maid started with a simple observation: too many Cincinnati
               families were settling for inconsistent, impersonal cleaning
               services. We set out to change that. From Over-the-Rhine to West
               Chester and everywhere in between, our mission is to give every
@@ -175,7 +175,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-sand-light">
             <Image
               src="/images/about-hero.jpg"
-              alt="CincyMaid team delivering professional cleaning in Cincinnati"
+              alt="Cincy Maid team delivering professional cleaning in Cincinnati"
               fill
               className="object-cover"
               priority
@@ -242,7 +242,7 @@ export default function AboutPage() {
               The People Behind <span className="text-teal">the Polish</span>
             </h2>
             <p className="mt-4 text-charcoal-light leading-relaxed">
-              Every CincyMaid cleaner is hand-picked, rigorously trained, and
+              Every Cincy Maid cleaner is hand-picked, rigorously trained, and
               genuinely passionate about doing great work. Here's what you can
               expect from every member of our crew:
             </p>
@@ -281,7 +281,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-sand-light">
             <Image
               src="/images/team-placeholder.jpg"
-              alt="CincyMaid cleaning professionals ready to serve Cincinnati homes"
+              alt="Cincy Maid cleaning professionals ready to serve Cincinnati homes"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

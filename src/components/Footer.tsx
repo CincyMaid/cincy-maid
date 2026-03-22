@@ -117,7 +117,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <span className="font-[family-name:var(--font-playfair)] text-2xl font-bold tracking-tight">
-                <span className="text-white">Cincy</span>
+                <span className="text-white">Cincy</span>{" "}
                 <span className="text-teal-light">Maid</span>
               </span>
             </Link>

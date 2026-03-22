@@ -31,7 +31,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="group">
             <span className="text-xl md:text-2xl font-medium tracking-tight" style={{ fontFamily: "var(--font-playfair)" }}>
-              <span className="text-charcoal">Cincy</span>
+              <span className="text-charcoal">Cincy</span>{" "}
               <span className="text-teal-dark">Maid</span>
             </span>
           </Link>

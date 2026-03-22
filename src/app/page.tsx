@@ -363,19 +363,19 @@ const testimonials = [
     name: "Jennifer K.",
     location: "Hyde Park, Cincinnati",
     rating: 5,
-    text: "After years of trying different services, CincyMaid is the first team that actually cleans the things I forget to ask about — light switches, door frames, behind the toilet. They treat my home like it is their own, and I genuinely look forward to coming home on cleaning day.",
+    text: "After years of trying different services, Cincy Maid is the first team that actually cleans the things I forget to ask about — light switches, door frames, behind the toilet. They treat my home like it is their own, and I genuinely look forward to coming home on cleaning day.",
   },
   {
     name: "David & Laura M.",
     location: "Mason, OH",
     rating: 5,
-    text: "We have two dogs and three kids, so our house can go from tidy to total chaos in about an hour. CincyMaid handles it all without judgment and without cutting corners. Our biweekly cleanings have honestly saved our sanity — and probably our marriage.",
+    text: "We have two dogs and three kids, so our house can go from tidy to total chaos in about an hour. Cincy Maid handles it all without judgment and without cutting corners. Our biweekly cleanings have honestly saved our sanity — and probably our marriage.",
   },
   {
     name: "Priya S.",
     location: "West Chester, OH",
     rating: 5,
-    text: "I hired CincyMaid for a move-out deep clean and my landlord said it was the cleanest unit he had ever received back. I got my full deposit returned with zero deductions. Worth every penny and I have already booked them for my new place.",
+    text: "I hired Cincy Maid for a move-out deep clean and my landlord said it was the cleanest unit he had ever received back. I got my full deposit returned with zero deductions. Worth every penny and I have already booked them for my new place.",
   },
 ];
 
@@ -462,7 +462,7 @@ export default function HomePage() {
                 id="hero-description"
                 className="text-lg sm:text-xl text-white/85 leading-relaxed mb-8 max-w-2xl mx-auto"
               >
-                CincyMaid pairs background-checked cleaning professionals with
+                Cincy Maid pairs background-checked cleaning professionals with
                 eco-friendly products to give Cincinnati homes a thorough,
                 worry-free clean — on your schedule, starting at just $155.
               </p>
@@ -713,7 +713,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-sand-light mb-8">
                 <Image
                   src="/images/cleaning-team.jpg"
-                  alt="CincyMaid cleaning team member at work in a Cincinnati home"
+                  alt="Cincy Maid cleaning team member at work in a Cincinnati home"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -727,7 +727,7 @@ export default function HomePage() {
               </h2>
               <p className="text-charcoal-light text-lg leading-relaxed mb-6">
                 Inviting someone into your home is personal. That is why every
-                CincyMaid team member goes through identity verification,
+                Cincy Maid team member goes through identity verification,
                 criminal background screening, and reference checks before their
                 first assignment. We also carry full general liability insurance
                 and bonding — so if the unexpected ever happens, you are
@@ -830,7 +830,7 @@ export default function HomePage() {
             </h2>
             <p className="text-charcoal-light max-w-2xl mx-auto text-lg">
               Everything you need to know about booking, pricing, and what to
-              expect from your CincyMaid cleaning.
+              expect from your Cincy Maid cleaning.
             </p>
           </div>
 
@@ -874,7 +874,7 @@ export default function HomePage() {
             Ready to Reclaim Your Weekends?
           </h2>
           <p className="text-white/85 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Life in Cincinnati moves fast. Let CincyMaid take cleaning off your
+            Life in Cincinnati moves fast. Let Cincy Maid take cleaning off your
             plate so you can spend your free time on the things that actually
             matter — family, friends, and a little well-deserved rest.
           </p>
