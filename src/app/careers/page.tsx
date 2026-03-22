@@ -4,7 +4,7 @@ import Link from "next/link";
 import ApplicationForm from "@/components/ApplicationForm";
 
 export const metadata: Metadata = {
-  title: "Careers",
+  title: "Now Hiring House Cleaners in Cincinnati, OH",
   description:
     "Now hiring house cleaners in Cincinnati, OH. Flexible hours, competitive pay, and a team that has your back. Apply to Cincy Maid today.",
   alternates: {
@@ -162,7 +162,7 @@ export default function CareersPage() {
         <div className="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-charcoal sm:text-5xl">
-              Build a Career That Fits Your Life
+              Join Cincinnati&apos;s Fastest-Growing House Cleaning Team
             </h1>
             <p className="mt-4 text-lg text-charcoal-light">
               Cincy Maid is growing, and we need dependable, detail-oriented

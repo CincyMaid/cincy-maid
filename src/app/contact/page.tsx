@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact Cincy Maid — Cincinnati House Cleaning",
   description:
     "Reach out to Cincy Maid for house cleaning questions, booking help, or commercial inquiries. Serving Cincinnati, Hyde Park, Mason, West Chester, and more.",
   alternates: {
@@ -35,7 +35,7 @@ export default function ContactPage() {
       <section className="bg-cream py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-bold text-charcoal sm:text-5xl">
-            We&apos;d Love to Hear From You
+            Get in Touch with Cincy Maid
           </h1>
           <p className="mt-4 text-lg text-charcoal-light max-w-2xl mx-auto">
             Whether you have a quick question, need help choosing a service, or
