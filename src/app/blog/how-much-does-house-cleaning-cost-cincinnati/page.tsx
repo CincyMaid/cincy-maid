@@ -72,6 +72,26 @@ const faqSchema = {
       name: "What affects the price of house cleaning in Cincinnati?",
       acceptedAnswer: { "@type": "Answer", text: "The main factors are home size (number of bedrooms and bathrooms), type of clean (recurring, deep, or move-out), and frequency. Add-ons like inside oven, inside fridge, and deep baseboard detail add to the base price. Cincy Maid uses transparent instant pricing — you always see your exact total before confirming." },
     },
+    {
+      "@type": "Question",
+      name: "Why does the first cleaning cost more?",
+      acceptedAnswer: { "@type": "Answer", text: "The first cleaning establishes a clean baseline for your home. It takes longer than a recurring visit because every surface needs thorough attention — not just maintenance. After the first visit, recurring cleans are faster and more affordable because we are maintaining the standard rather than building it from scratch." },
+    },
+    {
+      "@type": "Question",
+      name: "Is there a contract for recurring cleaning?",
+      acceptedAnswer: { "@type": "Answer", text: "No contracts. No commitments. Cancel anytime. You can pause, skip, or cancel your recurring plan whenever you need to — no fees, no questions." },
+    },
+    {
+      "@type": "Question",
+      name: "Are your cleaning products safe for kids and pets?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes. Cincy Maid uses eco-friendly, non-toxic cleaning products on every job. They are safe for children, pets, and anyone with sensitivities. If you have a preference for a specific product, let us know at booking and we will accommodate it." },
+    },
+    {
+      "@type": "Question",
+      name: "How do I get an exact price for house cleaning?",
+      acceptedAnswer: { "@type": "Answer", text: "Book online at cincymaid.com. Enter your home details — bedrooms, bathrooms, and any add-ons — and your exact price appears instantly. No callbacks, no estimates, no surprises." },
+    },
   ],
 };
 

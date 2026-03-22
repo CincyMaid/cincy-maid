@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: "200+", label: "Happy Customers" },
+  { value: "300+", label: "Cincinnati Families Served" },
   { value: "4.9★", label: "Average Rating" },
   { value: "Est. 2024", label: "Founded in Cincinnati" },
   { value: "100%", label: "Satisfaction Promise" },
@@ -214,6 +214,15 @@ export default function AboutPage() {
               Chester and everywhere in between, our mission is to give every
               household a cleaner home and more free time — without the
               guesswork or stress.
+            </p>
+            <p className="mt-4 text-lg text-charcoal-light leading-relaxed">
+              We are a locally owned Cincinnati business — not a franchise, not
+              a national chain. The people who answer your calls and assign your
+              cleaning teams are the same people who built this company from the
+              ground up, right here in Cincinnati.
+            </p>
+            <p className="mt-3 inline-block text-sm font-semibold text-teal-dark bg-teal-light/30 px-4 py-1.5 rounded-full">
+              Est. Cincinnati, OH · 2024
             </p>
           </div>
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-sand-light">

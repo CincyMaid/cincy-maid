@@ -72,6 +72,11 @@ const cleaningServiceSchema = {
     { "@type": "City", name: "Loveland" },
     { "@type": "City", name: "Montgomery" },
     { "@type": "City", name: "Mariemont" },
+    { "@type": "AdministrativeArea", name: "Northern Kentucky" },
+    { "@type": "City", name: "Covington", containedInPlace: { "@type": "State", name: "Kentucky" } },
+    { "@type": "City", name: "Florence", containedInPlace: { "@type": "State", name: "Kentucky" } },
+    { "@type": "City", name: "Newport", containedInPlace: { "@type": "State", name: "Kentucky" } },
+    { "@type": "City", name: "Erlanger", containedInPlace: { "@type": "State", name: "Kentucky" } },
   ],
   openingHoursSpecification: [
     {
@@ -137,7 +142,7 @@ const faqItems = [
   {
     question: "What areas around Cincinnati does Cincy Maid serve?",
     answer:
-      "We serve the Greater Cincinnati area including Mason, West Chester, Hyde Park, Oakley, Mt. Lookout, Anderson Township, Madeira, Indian Hill, Blue Ash, Kenwood, Loveland, Montgomery, and Mariemont. If you are unsure whether we cover your neighborhood, call us at (513) 951-7799 and we will let you know right away.",
+      "We serve Greater Cincinnati and Northern Kentucky including Mason, West Chester, Hyde Park, Oakley, Mt. Lookout, Anderson Township, Madeira, Indian Hill, Blue Ash, Kenwood, Loveland, Montgomery, Mariemont, Covington, Florence, Newport, and Erlanger. If you are unsure whether we cover your neighborhood, call us at (513) 951-7799 and we will let you know right away.",
   },
   {
     question: "How much does a house cleaning cost in Cincinnati?",
@@ -778,7 +783,7 @@ export default function HomePage() {
             </h2>
             <p className="text-charcoal-light max-w-2xl mx-auto text-lg">
               Do not just take our word for it — hear from real clients across
-              the Greater Cincinnati area.
+              Greater Cincinnati and Northern Kentucky.
             </p>
           </div>
 
