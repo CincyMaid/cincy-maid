@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "How to Prepare for a House Cleaning Service",
   description:
-    "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare — and what you don't need to bother with.",
+    "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare, and what you don't need to bother with.",
   alternates: {
     canonical:
       "https://cincymaid.com/blog/how-to-prepare-for-cleaning-service",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How to Prepare for a House Cleaning Service | Cincy Maid",
     description:
-      "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare — and what you don't need to bother with.",
+      "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare, and what you don't need to bother with.",
     url: "https://cincymaid.com/blog/how-to-prepare-for-cleaning-service",
     type: "article",
     publishedTime: "2026-03-21",
@@ -32,7 +32,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "How to Prepare Your Cincinnati Home for a Cleaning Service",
   description:
-    "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare — and what you don't need to bother with.",
+    "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare, and what you don't need to bother with.",
   datePublished: "2026-03-21",
   dateModified: "2026-03-21",
   author: {
@@ -56,7 +56,7 @@ const blogPostingSchema = {
   "@type": "BlogPosting",
   headline: "How to Prepare Your Cincinnati Home for a Cleaning Service",
   description:
-    "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare — and what you don't need to bother with.",
+    "Not sure what to do before your cleaning team arrives? Here's exactly how to prepare, and what you don't need to bother with.",
   datePublished: "2026-03-21",
   dateModified: "2026-03-21",
   author: {
@@ -145,7 +145,7 @@ export default function HowToPreparePost() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-6 text-charcoal-light text-lg leading-relaxed">
             <p>
-              You booked a cleaning — nice. Now you&apos;re wondering if you
+              You booked a cleaning. Nice. Now you&apos;re wondering if you
               need to do something before the team shows up. Maybe vacuum a
               little? Hide the pile of mail on the counter? Wipe down the sink
               so the cleaners don&apos;t judge you?
@@ -167,7 +167,7 @@ export default function HowToPreparePost() {
             </p>
             <p>
               The one thing that does help: pick up loose items from floors
-              and surfaces. Toys, shoes, clothes, mail — anything that would
+              and surfaces. Toys, shoes, clothes, mail, anything that would
               prevent our team from reaching the surface underneath. You
               don&apos;t need to organize or deep-tidy. Just clear the path so
               we can do our job well. That&apos;s it.
@@ -178,7 +178,7 @@ export default function HowToPreparePost() {
               2. Secure Your Pets
             </h2>
             <p>
-              We love animals — genuinely. But vacuums are loud, strangers are
+              We love animals, genuinely. But vacuums are loud, strangers are
               stressful, and a nervous dog following the cleaner from room to
               room slows everything down. Cats tend to hide, which is fine,
               but some will bolt through an open door if given the chance.
@@ -198,16 +198,16 @@ export default function HowToPreparePost() {
             <p>
               If you have hardwood floors that need a specific product, a
               marble countertop that can&apos;t handle acidic cleaners, or a
-              family member with chemical sensitivities — tell us. We use
-              professional, eco-friendly products by default, but we&apos;re
+              family member with chemical sensitivities, tell us. We use
+              professional-grade, non-toxic products by default, but we&apos;re
               happy to adjust.
             </p>
             <p>
               The best time to mention this is during booking. You can add a
               note, or just leave a sticky note on the surface when we arrive.
               We&apos;d rather know upfront than risk damaging something that
-              matters to you. We accommodate special requests all the time —
-              it&apos;s not a hassle.
+              matters to you. We accommodate special requests all the time,
+              and it&apos;s not a hassle.
             </p>
 
             {/* Section 4 */}
@@ -224,7 +224,7 @@ export default function HowToPreparePost() {
               or lockbox access. Every Cincy Maid cleaner is background-checked
               and fully insured, so you can feel confident leaving your home in
               our hands. If you&apos;re home, we just ask that you stay out of
-              the rooms we&apos;re actively cleaning — it helps us stay on
+              the rooms we&apos;re actively cleaning. It helps us stay on
               schedule.
             </p>
 
@@ -236,7 +236,7 @@ export default function HowToPreparePost() {
               After every visit, your surfaces will be wiped and dust-free,
               floors vacuumed and mopped, bathrooms sanitized, kitchen
               cleaned, trash emptied, and beds made. We follow a detailed,
-              room-by-room checklist so nothing gets missed — whether it&apos;s
+              room-by-room checklist so nothing gets missed, whether it&apos;s
               your first appointment or your fiftieth.
             </p>
             <p>

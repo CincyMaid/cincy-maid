@@ -95,9 +95,9 @@ const BENEFITS = [
     icon: HomeIcon,
   },
   {
-    title: "Eco-Friendly Products",
+    title: "Premium Supplies",
     description:
-      "We bring our own supplies and use plant-based, non-toxic products that are safe for kids, pets, and the planet.",
+      "We bring our own supplies and use professional-grade, non-toxic products that are safe for kids, pets, and your home.",
     icon: MapPinIcon,
   },
 ];
@@ -212,7 +212,7 @@ function buildJsonLd(location: Location) {
             name: `How much does house cleaning cost in ${location.name}?`,
             acceptedAnswer: {
               "@type": "Answer",
-              text: `House cleaning in ${location.name} starts at $155. Final pricing depends on your home size, number of bedrooms and bathrooms, and any add-on services. Get your instant quote online at cincymaid.com — no phone call required.`,
+              text: `House cleaning in ${location.name} starts at $155. Final pricing depends on your home size, number of bedrooms and bathrooms, and any add-on services. Get your instant quote online at cincymaid.com. No phone call required.`,
             },
           },
           {
@@ -355,12 +355,12 @@ export default function LocationPage({ location }: { location: Location }) {
               <p className="rounded-xl bg-cream p-5 text-sm leading-relaxed text-charcoal-light">
                 <strong className="text-charcoal">Transparent pricing:</strong>{" "}
                 Every quote is based on the actual size and condition of your
-                home — no hidden fees, no bait-and-switch. You approve the
+                home. No hidden fees, no bait-and-switch. You approve the
                 price before we ever pick up a mop.
               </p>
             </div>
 
-            {/* Right column — benefit cards */}
+            {/* Right column - benefit cards */}
             <div className="grid gap-5 sm:grid-cols-2">
               {BENEFITS.map((b) => {
                 const Icon = b.icon;
@@ -489,7 +489,7 @@ export default function LocationPage({ location }: { location: Location }) {
           </h2>
           <p className="mx-auto mb-10 max-w-xl text-lg text-white/90">
             Spend your free time enjoying everything {location.name} has to
-            offer — and leave the scrubbing to us.
+            offer, and leave the scrubbing to us.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

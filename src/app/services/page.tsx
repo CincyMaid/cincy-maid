@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "House Cleaning Services in Cincinnati, OH",
   description:
-    "House cleaning services in Cincinnati — recurring, deep clean, move-in/move-out. Starting at $155. Background-checked teams. Book online.",
+    "House cleaning services in Cincinnati. Recurring, deep clean, move-in/move-out. Starting at $155. Background-checked teams. Book online.",
   alternates: {
     canonical: "https://cincymaid.com/services",
   },
@@ -119,7 +119,7 @@ const faqs = [
   {
     question: "Do I need to provide cleaning supplies or equipment?",
     answer:
-      "No. Our teams arrive fully equipped with professional-grade, eco-conscious products and all necessary tools. If you have a preferred product for a specific surface, just let us know and we are happy to use it.",
+      "No. Our teams arrive fully equipped with professional-grade products and all necessary tools. If you have a preferred product for a specific surface, just let us know and we are happy to use it.",
   },
   {
     question: "Can I change my cleaning schedule after signing up?",

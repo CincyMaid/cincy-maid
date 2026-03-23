@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — Cincinnati's Trusted House Cleaning Team",
+  title: "About Us | Cincinnati's Trusted House Cleaning Team",
   description:
-    "Meet the Cincy Maid team — locally owned in Cincinnati, founded in 2024. Background-checked cleaners, honest pricing. Learn our story.",
+    "Meet the Cincy Maid team. Locally owned in Cincinnati, founded in 2024. Background-checked cleaners, honest pricing. Learn our story.",
   alternates: {
     canonical: "https://cincymaid.com/about",
   },
@@ -43,7 +43,7 @@ const values = [
   {
     title: "Respect for Your Space",
     description:
-      "Your home is personal. Our team treats every surface, corner, and keepsake with the care it deserves — no rushing, no carelessness.",
+      "Your home is personal. Our team treats every surface, corner, and keepsake with the care it deserves, with no rushing and no carelessness.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ const values = [
   {
     title: "People-First Culture",
     description:
-      "We pay living wages, invest in ongoing training, and create a workplace our cleaners are proud of — because great teams deliver great results.",
+      "We pay living wages, invest in ongoing training, and create a workplace our cleaners are proud of, because great teams deliver great results.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const teamQualities = [
   "Trained in our detailed, room-by-room process",
   "Insured and bonded for your peace of mind",
   "Friendly, professional, and punctual",
-  "Equipped with premium, eco-conscious supplies",
+  "Equipped with premium, professional-grade supplies",
 ];
 
 const jsonLd = {
@@ -157,7 +157,7 @@ const faqSchema = {
       name: "When was Cincy Maid founded?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Cincy Maid was founded in 2024 in Cincinnati, Ohio. We are locally owned and operated — not a franchise — serving Greater Cincinnati and Northern Kentucky.",
+        text: "Cincy Maid was founded in 2024 in Cincinnati, Ohio. We are locally owned and operated, not a franchise, serving Greater Cincinnati and Northern Kentucky.",
       },
     },
     {
@@ -181,7 +181,7 @@ const faqSchema = {
       name: "Is Cincy Maid a franchise or locally owned?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Cincy Maid is independently owned and operated — not a franchise. We are a local Cincinnati business, founded in 2024, committed to serving our community with consistent, professional home cleaning.",
+        text: "Cincy Maid is independently owned and operated, not a franchise. We are a local Cincinnati business, founded in 2024, committed to serving our community with consistent, professional home cleaning.",
       },
     },
   ],
@@ -205,18 +205,18 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal leading-tight">
-              Cincinnati&apos;s House Cleaning Team — Built on Trust, Trained to a&nbsp;Standard
+              Cincinnati&apos;s House Cleaning Team: Built on Trust, Trained to a&nbsp;Standard
             </h1>
             <p className="mt-6 text-lg md:text-xl text-charcoal-light leading-relaxed">
               Cincy Maid started with a simple observation: too many Cincinnati
               families were settling for inconsistent, impersonal cleaning
               services. We set out to change that. From Over-the-Rhine to West
               Chester and everywhere in between, our mission is to give every
-              household a cleaner home and more free time — without the
+              household a cleaner home and more free time, without the
               guesswork or stress.
             </p>
             <p className="mt-4 text-lg text-charcoal-light leading-relaxed">
-              We are a locally owned Cincinnati business — not a franchise, not
+              We are a locally owned Cincinnati business, not a franchise, not
               a national chain. The people who answer your calls and assign your
               cleaning teams are the same people who built this company from the
               ground up, right here in Cincinnati.
@@ -351,7 +351,7 @@ export default function AboutPage() {
           </h2>
           <p className="mt-4 text-teal-light text-lg max-w-xl mx-auto">
             Book your first cleaning in under two minutes. No contracts, no
-            commitments — just a cleaner home waiting for you.
+            commitments, just a cleaner home waiting for you.
           </p>
           <Link
             href="/booking"

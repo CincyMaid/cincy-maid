@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "5 Signs It's Time to Hire a House Cleaner in Cincinnati",
   description:
-    "5 honest signs it's time to hire a house cleaner in Cincinnati — from weekend burnout to lowered standards. See if it's time.",
+    "5 honest signs it's time to hire a house cleaner in Cincinnati, from weekend burnout to lowered standards. See if it's time.",
   alternates: {
     canonical:
       "https://cincymaid.com/blog/signs-you-need-a-house-cleaner",
@@ -32,7 +32,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "5 Signs It's Time to Hire a House Cleaner in Cincinnati",
   description:
-    "Not sure if you should hire a house cleaner in Cincinnati? Here are 5 honest signs it might be time — from weekend burnout to lowered standards.",
+    "Not sure if you should hire a house cleaner in Cincinnati? Here are 5 honest signs it might be time, from weekend burnout to lowered standards.",
   datePublished: "2026-03-21",
   dateModified: "2026-03-21",
   author: {
@@ -56,7 +56,7 @@ const blogPostingSchema = {
   "@type": "BlogPosting",
   headline: "5 Signs It's Time to Hire a House Cleaner in Cincinnati",
   description:
-    "Not sure if you should hire a house cleaner in Cincinnati? Here are 5 honest signs it might be time — from weekend burnout to lowered standards.",
+    "Not sure if you should hire a house cleaner in Cincinnati? Here are 5 honest signs it might be time, from weekend burnout to lowered standards.",
   datePublished: "2026-03-21",
   dateModified: "2026-03-21",
   author: {
@@ -92,7 +92,7 @@ const faqSchema = {
       name: "Is hiring a house cleaner worth the money?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For most busy families, yes. A professional cleaner saves you 3 to 5 hours of work each week. Many clients say the biggest benefit is not the clean house itself — it is getting their weekends and evenings back. With plans starting at $155, most Cincinnati families find it a worthwhile trade.",
+        text: "For most busy families, yes. A professional cleaner saves you 3 to 5 hours of work each week. Many clients say the biggest benefit is not the clean house itself. It is getting their weekends and evenings back. With plans starting at $155, most Cincinnati families find it a worthwhile trade.",
       },
     },
   ],
@@ -152,7 +152,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
             </p>
             <p>
               If any of that sounds familiar, you&apos;re not alone. Here are
-              five honest signs it might be time to bring in some help — and
+              five honest signs it might be time to bring in some help, and
               why that&apos;s a perfectly reasonable decision.
             </p>
 
@@ -171,7 +171,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
               and surface wiping, something&apos;s off. You deserve to eat
               dinner, sit down, and actually rest. A recurring cleaning service
               takes the biggest tasks off your plate so your evenings belong to
-              you again — not your kitchen floor.
+              you again, not your kitchen floor.
             </p>
 
             {/* Sign 2 */}
@@ -187,8 +187,8 @@ export default function SignsYouNeedAHouseCleanerPost() {
             <p>
               This is the number one thing we hear from new clients in
               Cincinnati: &ldquo;I just want my weekends back.&rdquo; And
-              honestly, that&apos;s reason enough. A biweekly cleaning — our
-              most popular option — keeps your home consistently clean so
+              honestly, that&apos;s reason enough. A biweekly cleaning, our
+              most popular option, keeps your home consistently clean so
               Saturday can actually feel like a day off.
             </p>
 
@@ -204,7 +204,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
               that&apos;s just &ldquo;the look.&rdquo;
             </p>
             <p>
-              There&apos;s no shame in this — life gets busy. But if your home
+              There&apos;s no shame in this. Life gets busy. But if your home
               doesn&apos;t feel the way you want it to feel, that matters. A
               clean home affects your mood, your sleep, and your stress levels
               more than most people realize. You don&apos;t have to do it all
@@ -217,7 +217,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
             </h2>
             <p>
               Your friend texts, &ldquo;Can I swing by in an hour?&rdquo; and
-              your first thought isn&apos;t &ldquo;Great!&rdquo; — it&apos;s a
+              your first thought isn&apos;t &ldquo;Great!&rdquo; It&apos;s a
               mental inventory of which rooms are presentable and which doors
               need to stay closed.
             </p>
@@ -225,7 +225,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
               When the idea of someone seeing your home causes anxiety, that&apos;s
               a sign things have slipped past your comfort zone. With a regular
               cleaning schedule, your home is always guest-ready. Not magazine-perfect,
-              just comfortable — the kind of clean where you can say &ldquo;come
+              just comfortable, the kind of clean where you can say &ldquo;come
               on over&rdquo; without thinking twice.
             </p>
 
@@ -234,7 +234,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
               5. Your Family Is Growing (or You Got a Pet)
             </h2>
             <p>
-              Kids change everything — including how fast your house gets dirty.
+              Kids change everything, including how fast your house gets dirty.
               Crumbs appear in rooms where no food was eaten. Sticky handprints
               show up on surfaces you didn&apos;t know existed. And if you
               recently added a dog or cat to the family, you already know about
@@ -264,7 +264,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
               Our recurring plans start at $155 per visit, and weekly clients
               save up to 20%. Every cleaner is background-checked, fully
               insured, and trained to our standards. If anything isn&apos;t
-              right, we come back and fix it — no charge.
+              right, we come back and fix it at no charge.
             </p>
             <p>
               If you recognized yourself in any of the signs above, you
@@ -311,7 +311,7 @@ export default function SignsYouNeedAHouseCleanerPost() {
                 <p className="mt-3 text-charcoal-light leading-relaxed">
                   For most busy families, yes. A professional cleaner saves you
                   3 to 5 hours of work each week. Many clients say the biggest
-                  benefit is not the clean house itself — it is getting their
+                  benefit is not the clean house itself. It is getting their
                   weekends and evenings back. With plans starting at $155, most
                   Cincinnati families find it a worthwhile trade.
                 </p>

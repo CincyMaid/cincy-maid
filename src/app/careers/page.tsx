@@ -16,7 +16,7 @@ const benefits = [
   {
     title: "Flexible Schedule",
     description:
-      "Build a work week that fits your life, not the other way around. Choose mornings, afternoons, or a mix — we accommodate school pickups, side gigs, and everything in between.",
+      "Build a work week that fits your life, not the other way around. Choose mornings, afternoons, or a mix. We accommodate school pickups, side gigs, and everything in between.",
     icon: (
       <svg
         className="h-7 w-7 text-teal"

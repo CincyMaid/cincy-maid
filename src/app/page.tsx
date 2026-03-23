@@ -9,14 +9,14 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: { absolute: "Cincy Maid | Professional House Cleaning in Cincinnati, OH" },
   description:
-    "Professional house cleaning in Cincinnati starting at $155. Background-checked teams, eco-friendly products. Book online today!",
+    "Professional house cleaning in Cincinnati starting at $155. Background-checked teams, premium supplies. Book online today!",
   alternates: {
     canonical: "https://cincymaid.com",
   },
   openGraph: {
     title: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
     description:
-      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, eco-friendly supplies, flexible scheduling. Starting at $155.",
+      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, premium supplies, flexible scheduling. Starting at $155.",
     url: "https://cincymaid.com",
     siteName: "Cincy Maid",
     type: "website",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cincy Maid | Professional House Cleaning in Cincinnati, OH",
     description:
-      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, eco-friendly supplies, flexible scheduling. Starting at $155.",
+      "Meticulous house cleaning across Greater Cincinnati. Background-checked teams, premium supplies, flexible scheduling. Starting at $155.",
   },
 };
 
@@ -43,7 +43,7 @@ const cleaningServiceSchema = {
   telephone: "(513) 951-7799",
   email: "admin@cincymaid.com",
   description:
-    "Professional house cleaning services across Cincinnati, OH and surrounding communities. Background-checked teams, eco-friendly products, and satisfaction guaranteed.",
+    "Professional house cleaning services across Cincinnati, OH and surrounding communities. Background-checked teams, premium supplies, and satisfaction guaranteed.",
   foundingDate: "2024",
   address: {
     "@type": "PostalAddress",
@@ -147,7 +147,7 @@ const faqItems = [
   {
     question: "How much does a house cleaning cost in Cincinnati?",
     answer:
-      "Our residential cleanings start at $155. Final pricing depends on the size of your home, the level of cleaning you need, and any add-on services such as interior oven or refrigerator cleaning. You will always see your exact price before confirming your booking — no surprises.",
+      "Our residential cleanings start at $155. Final pricing depends on the size of your home, the level of cleaning you need, and any add-on services such as interior oven or refrigerator cleaning. You will always see your exact price before confirming your booking. No surprises.",
   },
   {
     question: "Are your cleaning teams background-checked?",
@@ -157,7 +157,7 @@ const faqItems = [
   {
     question: "What cleaning products do you use?",
     answer:
-      "We use eco-friendly, non-toxic cleaning products that are tough on grime but gentle on surfaces, pets, and children. If you have specific product preferences or sensitivities, let us know during booking and we will accommodate them.",
+      "We use professional-grade, non-toxic cleaning products that are tough on grime but gentle on surfaces, pets, and children. If you have specific product preferences or sensitivities, let us know during booking and we will accommodate them.",
   },
   {
     question: "Can I book a one-time deep clean instead of recurring service?",
@@ -182,22 +182,22 @@ const faqItems = [
   {
     question: "How often should I have my house cleaned?",
     answer:
-      "Most Cincinnati families choose biweekly service — it keeps the home consistently clean without the cost of weekly visits. If you have kids, pets, or entertain frequently, weekly service may be a better fit. A monthly clean works well for smaller homes or as a supplement to your own cleaning routine.",
+      "Most Cincinnati families choose biweekly service. It keeps the home consistently clean without the cost of weekly visits. If you have kids, pets, or entertain frequently, weekly service may be a better fit. A monthly clean works well for smaller homes or as a supplement to your own cleaning routine.",
   },
   {
     question: "Is it worth hiring a house cleaner?",
     answer:
-      "For busy Cincinnati families, hiring a cleaner typically saves 3–5 hours per week and reduces stress significantly. Many clients tell us the biggest benefit isn't the clean home — it's getting their weekends back. With recurring plans starting at $155, most families find the cost reasonable compared to the time and energy they save.",
+      "For busy Cincinnati families, hiring a cleaner typically saves 3–5 hours per week and reduces stress significantly. Many clients tell us the biggest benefit isn't the clean home. It's getting their weekends back. With recurring plans starting at $155, most families find the cost reasonable compared to the time and energy they save.",
   },
   {
     question: "How do I prepare for a house cleaning?",
     answer:
-      "You do not need to do much. We ask that you pick up loose items from floors and surfaces so our team can clean efficiently. Secure pets if needed. You do not need to be home — many Cincinnati clients provide a key or garage code. That is all.",
+      "You do not need to do much. We ask that you pick up loose items from floors and surfaces so our team can clean efficiently. Secure pets if needed. You do not need to be home. Many Cincinnati clients provide a key or garage code. That is all.",
   },
   {
     question: "Do I need to provide cleaning supplies?",
     answer:
-      "No. Our teams arrive fully equipped with professional, eco-friendly cleaning products and all necessary equipment. If you have a preference for a specific product or have a surface that requires special care, let us know during booking and we will accommodate it.",
+      "No. Our teams arrive fully equipped with professional-grade cleaning products and all necessary equipment. If you have a preference for a specific product or have a surface that requires special care, let us know during booking and we will accommodate it.",
   },
 ];
 
@@ -236,7 +236,7 @@ const services = [
   {
     title: "Residential Cleaning",
     description:
-      "From weekly upkeep to seasonal deep scrubs, we tailor every visit to the way your household actually lives. Kitchens, bathrooms, living areas, bedrooms — all handled with precision so you never come home to a chore list.",
+      "From weekly upkeep to seasonal deep scrubs, we tailor every visit to the way your household actually lives. Kitchens, bathrooms, living areas, bedrooms, all handled with precision so you never come home to a chore list.",
     image: "/images/residential.jpg",
     href: "/services",
   },
@@ -250,7 +250,7 @@ const services = [
   {
     title: "Move-In / Move-Out Cleaning",
     description:
-      "Relocating is stressful enough without worrying about scrubbing baseboards. Our move-day deep cleans cover every corner — cabinets, appliances, fixtures — so you can hand over (or step into) a truly spotless space.",
+      "Relocating is stressful enough without worrying about scrubbing baseboards. Our move-day deep cleans cover every corner (cabinets, appliances, fixtures) so you can hand over (or step into) a truly spotless space.",
     image: "/images/move-in-move-out.jpg",
     href: "/services",
   },
@@ -304,7 +304,7 @@ const trustCards = [
   {
     title: "Fully Insured & Bonded",
     description:
-      "We carry comprehensive liability coverage. If the unexpected happens, you are protected — no questions asked.",
+      "We carry comprehensive liability coverage. If the unexpected happens, you are protected, no questions asked.",
     icon: (
       <svg
         className="w-7 h-7 text-teal"
@@ -322,9 +322,9 @@ const trustCards = [
     ),
   },
   {
-    title: "Eco-Conscious Supplies",
+    title: "Professional-Grade Supplies",
     description:
-      "Our plant-based, non-toxic products deliver a powerful clean without harsh chemicals. Safe for kids, pets, and the planet.",
+      "Our high-quality, non-toxic products deliver a powerful clean without harsh chemicals. Safe for kids, pets, and your home.",
     icon: (
       <svg
         className="w-7 h-7 text-teal"
@@ -344,7 +344,7 @@ const trustCards = [
   {
     title: "Satisfaction Promise",
     description:
-      "Not thrilled with any part of your clean? Let us know within 24 hours and we will come back to fix it — completely free.",
+      "Not thrilled with any part of your clean? Let us know within 24 hours and we will come back to fix it, completely free.",
     icon: (
       <svg
         className="w-7 h-7 text-teal"
@@ -368,13 +368,13 @@ const testimonials = [
     name: "Jennifer K.",
     location: "Hyde Park, Cincinnati",
     rating: 5,
-    text: "After years of trying different services, Cincy Maid is the first team that actually cleans the things I forget to ask about — light switches, door frames, behind the toilet. They treat my home like it is their own, and I genuinely look forward to coming home on cleaning day.",
+    text: "After years of trying different services, Cincy Maid is the first team that actually cleans the things I forget to ask about: light switches, door frames, behind the toilet. They treat my home like it is their own, and I genuinely look forward to coming home on cleaning day.",
   },
   {
     name: "David & Laura M.",
     location: "Mason, OH",
     rating: 5,
-    text: "We have two dogs and three kids, so our house can go from tidy to total chaos in about an hour. Cincy Maid handles it all without judgment and without cutting corners. Our biweekly cleanings have honestly saved our sanity — and probably our marriage.",
+    text: "We have two dogs and three kids, so our house can go from tidy to total chaos in about an hour. Cincy Maid handles it all without judgment and without cutting corners. Our biweekly cleanings have honestly saved our sanity, and probably our marriage.",
   },
   {
     name: "Priya S.",
@@ -468,8 +468,8 @@ export default function HomePage() {
                 className="text-lg sm:text-xl text-white/85 leading-relaxed mb-8 max-w-2xl mx-auto"
               >
                 Cincy Maid pairs background-checked cleaning professionals with
-                eco-friendly products to give Cincinnati homes a thorough,
-                worry-free clean — on your schedule, starting at just $155.
+                premium supplies to give Cincinnati homes a thorough,
+                worry-free clean, on your schedule, starting at just $155.
               </p>
 
               {/* CTAs */}
@@ -520,7 +520,7 @@ export default function HomePage() {
                 {[
                   "Background Checked",
                   "Fully Insured",
-                  "Eco-Friendly Products",
+                  "Premium Supplies",
                   "Satisfaction Guaranteed",
                 ].map((badge) => (
                   <div
@@ -556,7 +556,7 @@ export default function HomePage() {
                     Get a <span className="text-teal">Free Estimate</span>
                   </h2>
                   <p className="mt-1 text-sm text-charcoal-light">
-                    Tell us about your space — get a personalized quote.
+                    Tell us about your space and get a personalized quote.
                   </p>
                 </div>
                 <ConvertLabsEmbed type="leads" />
@@ -713,7 +713,7 @@ export default function HomePage() {
       <section className="py-20 lg:py-28 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left — image + copy */}
+            {/* Left - image + copy */}
             <div>
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-sand-light mb-8">
                 <Image
@@ -735,18 +735,18 @@ export default function HomePage() {
                 Cincy Maid team member goes through identity verification,
                 criminal background screening, and reference checks before their
                 first assignment. We also carry full general liability insurance
-                and bonding — so if the unexpected ever happens, you are
+                and bonding, so if the unexpected ever happens, you are
                 completely covered.
               </p>
               <p className="text-charcoal-light text-lg leading-relaxed">
                 Our commitment does not stop at screening. We invest in ongoing
-                training, use eco-friendly products, and follow detailed
+                training, use professional-grade products, and follow detailed
                 checklists to ensure a consistently excellent clean every single
                 visit.
               </p>
             </div>
 
-            {/* Right — trust cards */}
+            {/* Right - trust cards */}
             <div className="grid sm:grid-cols-2 gap-5">
               {trustCards.map((card) => (
                 <div
@@ -782,7 +782,7 @@ export default function HomePage() {
               What Cincinnati <span className="text-teal">Homeowners</span> Are Saying
             </h2>
             <p className="text-charcoal-light max-w-2xl mx-auto text-lg">
-              Do not just take our word for it — hear from real clients across
+              Do not just take our word for it. Hear from real clients across
               Greater Cincinnati and Northern Kentucky.
             </p>
           </div>
@@ -881,7 +881,7 @@ export default function HomePage() {
           <p className="text-white/85 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
             Life in Cincinnati moves fast. Let Cincy Maid take cleaning off your
             plate so you can spend your free time on the things that actually
-            matter — family, friends, and a little well-deserved rest.
+            matter: family, friends, and a little well-deserved rest.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

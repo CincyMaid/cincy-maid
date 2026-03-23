@@ -88,7 +88,7 @@ export default function ThankYouCommercialPage() {
                   <p className="text-charcoal-light leading-relaxed">
                     You will receive a personalized quote tailored to your
                     facility size, cleaning frequency, and specific requirements.
-                    No cookie-cutter pricing — just an honest number that
+                    No cookie-cutter pricing, just an honest number that
                     reflects your actual needs.
                   </p>
                 </div>

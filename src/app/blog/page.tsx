@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "House Cleaning Tips & Cincinnati Home Guides",
   description:
-    "Cleaning tips, Cincinnati home guides, and honest advice from Cincy Maid. Keep your home spotless — or let us do it.",
+    "Cleaning tips, Cincinnati home guides, and honest advice from Cincy Maid. Keep your home spotless, or let us do it.",
   alternates: {
     canonical: "https://cincymaid.com/blog",
   },
@@ -29,7 +29,7 @@ const articles = [
     title: "How to Prepare Your Cincinnati Home for a Cleaning Service",
     slug: "how-to-prepare-for-cleaning-service",
     description:
-      "A quick guide to getting the most out of your professional cleaning appointment — no deep prep required.",
+      "A quick guide to getting the most out of your professional cleaning appointment. No deep prep required.",
     category: "Tips",
     published: true,
   },
@@ -45,7 +45,7 @@ const articles = [
     title: "How Much Does House Cleaning Cost in Cincinnati?",
     slug: "how-much-does-house-cleaning-cost-cincinnati",
     description:
-      "Recurring starts at $155. Deep cleans, move-out cleans, and hourly options explained — with real pricing and what affects the final number.",
+      "Recurring starts at $155. Deep cleans, move-out cleans, and hourly options explained, with real pricing and what affects the final number.",
     category: "Pricing",
     published: true,
   },
@@ -53,7 +53,7 @@ const articles = [
     title: "How Often Should You Clean Your Home?",
     slug: "how-often-should-you-clean-your-home",
     description:
-      "A room-by-room cleaning frequency guide — daily habits to seasonal deep cleans. What Cincinnati pros recommend.",
+      "A room-by-room cleaning frequency guide, from daily habits to seasonal deep cleans. What Cincinnati pros recommend.",
     category: "Tips",
     published: true,
   },
@@ -103,7 +103,7 @@ export default function BlogIndexPage() {
             <span className="text-teal">Home Guides</span>
           </h1>
           <p className="mt-6 text-lg text-charcoal-light max-w-2xl mx-auto leading-relaxed">
-            Honest advice from our team — whether you clean your own home or let
+            Honest advice from our team, whether you clean your own home or let
             us handle it. No fluff, no sales pitches, just practical tips for
             Cincinnati homeowners.
           </p>

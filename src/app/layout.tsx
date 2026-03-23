@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "Mt. Lookout house cleaning",
     "Cincinnati maid service",
     "professional cleaners Cincinnati",
-    "eco-friendly cleaning Cincinnati",
+    "trusted cleaning service Cincinnati",
   ],
   openGraph: {
     type: "website",

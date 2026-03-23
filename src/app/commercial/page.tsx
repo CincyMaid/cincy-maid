@@ -172,9 +172,9 @@ const faqs = [
       "Absolutely. We currently service several multi-site businesses across the Cincinnati metro area. You will have a single point of contact, unified billing, and consistent quality standards at every location.",
   },
   {
-    question: "What green cleaning options do you offer?",
+    question: "What cleaning products do you use?",
     answer:
-      "Our default product line is eco-conscious and low-VOC. For businesses with stricter environmental policies, we can source LEED-compliant or Green Seal-certified products at no added cost.",
+      "We use professional-grade, low-VOC products as our default. For businesses with specific product requirements, we are happy to accommodate your preferences at no added cost.",
   },
   {
     question: "How quickly can we get started?",

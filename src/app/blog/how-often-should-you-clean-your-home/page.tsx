@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "How Often Should You Clean Your Home?",
   description:
-    "Room-by-room cleaning frequency guide from Cincinnati pros — daily habits to seasonal deep cleans. Stay on top of it without burning out.",
+    "Room-by-room cleaning frequency guide from Cincinnati pros. Daily habits to seasonal deep cleans. Stay on top of it without burning out.",
   alternates: {
     canonical:
       "https://cincymaid.com/blog/how-often-should-you-clean-your-home",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How Often Should You Clean Your Home? | Cincy Maid",
     description:
-      "A room-by-room guide to cleaning frequency — daily kitchen wipe-downs to seasonal deep cleans. What professional cleaners recommend for Cincinnati homes.",
+      "A room-by-room guide to cleaning frequency, from daily kitchen wipe-downs to seasonal deep cleans. What professional cleaners recommend for Cincinnati homes.",
     url: "https://cincymaid.com/blog/how-often-should-you-clean-your-home",
     type: "article",
     publishedTime: "2026-03-22",
@@ -24,7 +24,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "How Often Should You Clean Your Home?",
   description:
-    "A room-by-room guide to cleaning frequency for Cincinnati homeowners — from daily habits to seasonal deep cleans.",
+    "A room-by-room guide to cleaning frequency for Cincinnati homeowners, from daily habits to seasonal deep cleans.",
   datePublished: "2026-03-22",
   dateModified: "2026-03-22",
   author: {
@@ -48,7 +48,7 @@ const blogPostingSchema = {
   "@type": "BlogPosting",
   headline: "How Often Should You Clean Your Home?",
   description:
-    "A room-by-room guide to cleaning frequency for Cincinnati homeowners — from daily habits to seasonal deep cleans.",
+    "A room-by-room guide to cleaning frequency for Cincinnati homeowners, from daily habits to seasonal deep cleans.",
   datePublished: "2026-03-22",
   dateModified: "2026-03-22",
   author: {
@@ -68,7 +68,7 @@ const faqSchema = {
       name: "How often should you clean your house?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most Cincinnati families do best with a biweekly professional cleaning for the heavy lifting — bathrooms, floors, kitchen, dusting — and a few minutes of daily habits like wiping counters and loading the dishwasher. Weekly service works better for larger homes, homes with kids or pets, or anyone who wants their house guest-ready at all times.",
+        text: "Most Cincinnati families do best with a biweekly professional cleaning for the heavy lifting (bathrooms, floors, kitchen, dusting) and a few minutes of daily habits like wiping counters and loading the dishwasher. Weekly service works better for larger homes, homes with kids or pets, or anyone who wants their house guest-ready at all times.",
       },
     },
     {
@@ -84,7 +84,7 @@ const faqSchema = {
       name: "How often should bathrooms be cleaned?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Bathrooms should be fully cleaned weekly — toilets, showers, mirrors, and floors. Between cleanings, a quick daily wipe of the sink and counter keeps things under control. Cincy Maid handles full bathroom sanitization on every recurring visit.",
+        text: "Bathrooms should be fully cleaned weekly: toilets, showers, mirrors, and floors. Between cleanings, a quick daily wipe of the sink and counter keeps things under control. Cincy Maid handles full bathroom sanitization on every recurring visit.",
       },
     },
   ],
@@ -137,7 +137,7 @@ export default function HowOftenShouldYouCleanPost() {
               <strong className="text-charcoal">
                 what to clean and how often
               </strong>{" "}
-              — so you stay ahead of the mess without burning out.
+              so you stay ahead of the mess without burning out.
             </p>
             <p>
               Here&apos;s what our professional cleaners at Cincy Maid recommend
@@ -158,27 +158,27 @@ export default function HowOftenShouldYouCleanPost() {
                 <strong className="text-charcoal">
                   Wipe kitchen counters
                 </strong>{" "}
-                after cooking — takes 60 seconds and prevents grease buildup
+                after cooking. Takes 60 seconds and prevents grease buildup
               </li>
               <li>
                 <strong className="text-charcoal">
                   Load or unload the dishwasher
                 </strong>{" "}
-                — don&apos;t let dishes stack up in the sink
+                : don&apos;t let dishes stack up in the sink
               </li>
               <li>
-                <strong className="text-charcoal">Make beds</strong> — sets the
+                <strong className="text-charcoal">Make beds</strong>: sets the
                 tone for the whole room
               </li>
               <li>
                 <strong className="text-charcoal">Sort mail and papers</strong>{" "}
-                — clutter accumulates faster than you think
+                : clutter accumulates faster than you think
               </li>
               <li>
                 <strong className="text-charcoal">
                   Quick bathroom sink wipe
                 </strong>{" "}
-                — 30 seconds, toothpaste and water spots gone
+                : 30 seconds, toothpaste and water spots gone
               </li>
             </ul>
 
@@ -192,7 +192,7 @@ export default function HowOftenShouldYouCleanPost() {
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                <strong className="text-charcoal">Vacuum all floors</strong> —
+                <strong className="text-charcoal">Vacuum all floors</strong>:
                 carpets, rugs, and hard surfaces
               </li>
               <li>
@@ -201,22 +201,22 @@ export default function HowOftenShouldYouCleanPost() {
                 </strong>
               </li>
               <li>
-                <strong className="text-charcoal">Clean bathrooms</strong> —
+                <strong className="text-charcoal">Clean bathrooms</strong>:
                 toilets, showers, tubs, mirrors
               </li>
               <li>
-                <strong className="text-charcoal">Dust surfaces</strong> —
+                <strong className="text-charcoal">Dust surfaces</strong>:
                 shelves, nightstands, TV stands, windowsills
               </li>
               <li>
-                <strong className="text-charcoal">Change bed linens</strong> —
+                <strong className="text-charcoal">Change bed linens</strong>:
                 at least every one to two weeks
               </li>
               <li>
                 <strong className="text-charcoal">
                   Wipe kitchen appliances
                 </strong>{" "}
-                — microwave exterior, stovetop, handles
+                : microwave exterior, stovetop, handles
               </li>
             </ul>
 
@@ -234,7 +234,7 @@ export default function HowOftenShouldYouCleanPost() {
                 <strong className="text-charcoal">
                   Clean inside the refrigerator
                 </strong>{" "}
-                — check expiration dates, wipe shelves
+                : check expiration dates, wipe shelves
               </li>
               <li>
                 <strong className="text-charcoal">
@@ -265,7 +265,7 @@ export default function HowOftenShouldYouCleanPost() {
             <ul className="list-disc pl-6 space-y-2">
               <li>
                 <strong className="text-charcoal">Deep clean the oven</strong>{" "}
-                — grease and food residue build up fast
+                : grease and food residue build up fast
               </li>
               <li>
                 <strong className="text-charcoal">
@@ -276,19 +276,19 @@ export default function HowOftenShouldYouCleanPost() {
                 <strong className="text-charcoal">
                   Clean behind and under large appliances
                 </strong>{" "}
-                — fridge, stove, washer/dryer
+                : fridge, stove, washer/dryer
               </li>
               <li>
                 <strong className="text-charcoal">
                   Descale showerheads and faucets
                 </strong>{" "}
-                — Cincinnati&apos;s hard water makes this important
+                : Cincinnati&apos;s hard water makes this important
               </li>
               <li>
                 <strong className="text-charcoal">
                   Organize closets and drawers
                 </strong>{" "}
-                — reset before they spiral
+                : reset before they spiral
               </li>
             </ul>
 
@@ -332,7 +332,7 @@ export default function HowOftenShouldYouCleanPost() {
               <strong className="text-charcoal">
                 biweekly recurring service
               </strong>{" "}
-              — it&apos;s the sweet spot between keeping your home consistently
+              because it&apos;s the sweet spot between keeping your home consistently
               clean and not overdoing it. Your cleaner handles the weekly and
               biweekly tasks so you only need to worry about the quick daily
               habits.
@@ -368,8 +368,8 @@ export default function HowOftenShouldYouCleanPost() {
                 </h3>
                 <p className="mt-3 text-charcoal-light leading-relaxed">
                   Most Cincinnati families do best with biweekly professional
-                  cleaning for the heavy lifting — bathrooms, floors, kitchen,
-                  dusting — and a few minutes of daily habits like wiping
+                  cleaning for the heavy lifting (bathrooms, floors, kitchen,
+                  dusting) and a few minutes of daily habits like wiping
                   counters and loading the dishwasher. Weekly service works
                   better for larger homes, homes with kids or pets, or anyone
                   who wants their house guest-ready at all times.
@@ -392,7 +392,7 @@ export default function HowOftenShouldYouCleanPost() {
                   How often should bathrooms be cleaned?
                 </h3>
                 <p className="mt-3 text-charcoal-light leading-relaxed">
-                  Bathrooms should be fully cleaned weekly — toilets, showers,
+                  Bathrooms should be fully cleaned weekly: toilets, showers,
                   mirrors, and floors. Between cleanings, a quick daily wipe of
                   the sink and counter keeps things under control. Cincy Maid
                   handles full bathroom sanitization on every recurring visit.

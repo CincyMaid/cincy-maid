@@ -5,7 +5,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: "House Cleaning Gift Cards in Cincinnati, OH",
   description:
-    "Send a Cincy Maid gift card for any occasion — birthdays, holidays, new homeowners, and more. Delivered by email, redeemable for any cleaning service in Cincinnati.",
+    "Send a Cincy Maid gift card for any occasion: birthdays, holidays, new homeowners, and more. Delivered by email, redeemable for any cleaning service in Cincinnati.",
   alternates: {
     canonical: "https://cincymaid.com/gift-cards",
   },
@@ -33,7 +33,7 @@ const occasions = [
   {
     title: "New Parents",
     description:
-      "Sleep-deprived parents don't need another onesie — they need someone else to handle the kitchen and bathrooms.",
+      "Sleep-deprived parents don't need another onesie. They need someone else to handle the kitchen and bathrooms.",
     emoji: "👶",
   },
   {
@@ -45,7 +45,7 @@ const occasions = [
   {
     title: "Just Because",
     description:
-      "No reason needed. Sometimes the best gifts are the ones nobody expected — like coming home to gleaming floors.",
+      "No reason needed. Sometimes the best gifts are the ones nobody expected, like coming home to gleaming floors.",
     emoji: "✨",
   },
 ];
@@ -61,7 +61,7 @@ export default function GiftCardsPage() {
           </h1>
           <p className="mt-4 text-lg text-charcoal-light max-w-2xl mx-auto">
             A Cincy Maid gift card lets someone you care about enjoy a
-            professionally cleaned home — no wrapping paper required. Choose any
+            professionally cleaned home, no wrapping paper required. Choose any
             amount and we&apos;ll deliver it straight to their inbox.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function GiftCardsPage() {
             Rather Book a Cleaning Yourself?
           </h2>
           <p className="text-charcoal-light mb-6">
-            If the clean home is for you (no judgement — treat yourself!), head
+            If the clean home is for you (no judgement, treat yourself!), head
             over to our booking page and schedule your next visit.
           </p>
           <Link

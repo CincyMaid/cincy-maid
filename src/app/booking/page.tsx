@@ -5,7 +5,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: "Book Your Cincinnati Home Cleaning in Minutes",
   description:
-    "Book a Cincinnati house cleaning in minutes. Instant pricing, no hidden fees — pay after we clean. Schedule online now!",
+    "Book a Cincinnati house cleaning in minutes. Instant pricing, no hidden fees. Pay after we clean. Schedule online now!",
   alternates: {
     canonical: "https://cincymaid.com/booking",
   },
@@ -75,7 +75,7 @@ const infoCards = [
   {
     title: "Transparent Pricing",
     description:
-      "Your quote is calculated instantly based on your home's size and the services you select. What you see is exactly what you pay — no surprise surcharges after the fact.",
+      "Your quote is calculated instantly based on your home's size and the services you select. What you see is exactly what you pay. No surprise surcharges after the fact.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const infoCards = [
   {
     title: "Pay After Service",
     description:
-      "We don't charge your card until the job is finished and you're completely satisfied. Your payment details are stored securely — you're always in control.",
+      "We don't charge your card until the job is finished and you're completely satisfied. Your payment details are stored securely, and you're always in control.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

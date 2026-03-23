@@ -9,7 +9,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: "Recurring House Cleaning in Cincinnati",
   description:
-    "Recurring house cleaning in Cincinnati — weekly, biweekly, or monthly. Starting at $155 with up to 20% off. Book online!",
+    "Recurring house cleaning in Cincinnati. Weekly, biweekly, or monthly. Starting at $155 with up to 20% off. Book online!",
   alternates: {
     canonical: "https://cincymaid.com/services/recurring-cleaning",
   },
@@ -64,7 +64,7 @@ const serviceSchema = {
     containedInPlace: { "@type": "State", name: "Ohio" },
   },
   description:
-    "Recurring weekly, biweekly, and monthly house cleaning for Cincinnati homes. Background-checked teams, eco-friendly supplies, and up to 20% recurring discount.",
+    "Recurring weekly, biweekly, and monthly house cleaning for Cincinnati homes. Background-checked teams, premium supplies, and up to 20% recurring discount.",
   serviceType: "Recurring House Cleaning",
 };
 
@@ -72,7 +72,7 @@ const faqItems = [
   {
     question: "How much does recurring house cleaning cost in Cincinnati?",
     answer:
-      "Recurring house cleaning with Cincy Maid starts at $155 per visit. Final pricing depends on your home size, number of bedrooms and bathrooms, and cleaning frequency. Weekly clients save the most — up to 20% compared to one-time cleaning rates. You always see your exact price before confirming.",
+      "Recurring house cleaning with Cincy Maid starts at $155 per visit. Final pricing depends on your home size, number of bedrooms and bathrooms, and cleaning frequency. Weekly clients save the most, up to 20% compared to one-time cleaning rates. You always see your exact price before confirming.",
   },
   {
     question: "What's included in a recurring cleaning?",
@@ -92,7 +92,7 @@ const faqItems = [
   {
     question: "How do I get the recurring cleaning discount?",
     answer:
-      "The discount is applied automatically when you choose a recurring plan during booking. Weekly service receives the largest discount (up to 20% off), biweekly saves around 10-15%, and monthly plans also receive a discount compared to one-time pricing. No coupon code needed — just select your frequency.",
+      "The discount is applied automatically when you choose a recurring plan during booking. Weekly service receives the largest discount (up to 20% off), biweekly saves around 10-15%, and monthly plans also receive a discount compared to one-time pricing. No coupon code needed. Just select your frequency.",
   },
 ];
 
@@ -188,9 +188,9 @@ const trustSignals = [
       "Every visit is covered by our liability insurance, so you have complete peace of mind.",
   },
   {
-    title: "Eco-Friendly Products",
+    title: "Premium Supplies",
     description:
-      "We use professional-grade, eco-friendly cleaning supplies that are safe for your family and pets.",
+      "We use professional-grade cleaning supplies that are safe for your family and pets.",
   },
 ];
 
@@ -226,7 +226,7 @@ export default function RecurringCleaningPage() {
             <span className="text-teal">in Cincinnati</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-charcoal-light max-w-3xl mx-auto leading-relaxed">
-            A clean home, every week — without lifting a finger. Choose weekly,
+            A clean home, every week, without lifting a finger. Choose weekly,
             biweekly, or monthly service and let our background-checked teams
             keep your Cincinnati home sparkling on autopilot.
           </p>
@@ -311,7 +311,7 @@ export default function RecurringCleaningPage() {
             </h2>
             <p className="mt-4 text-charcoal-light text-lg max-w-2xl mx-auto">
               Every recurring visit follows a detailed checklist so nothing gets
-              missed — no matter which frequency you choose.
+              missed, no matter which frequency you choose.
             </p>
           </div>
 
@@ -344,19 +344,19 @@ export default function RecurringCleaningPage() {
                 Weekly clients save up to{" "}
                 <span className="font-semibold text-charcoal">20%</span>{" "}
                 compared to one-time cleaning rates. The discount is applied
-                automatically — no coupon code needed.
+                automatically. No coupon code needed.
               </p>
               <ul className="mt-6 space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckIcon className="w-5 h-5 text-teal mt-0.5 shrink-0" />
                   <span className="text-charcoal">
-                    See your exact price before confirming — no surprises
+                    See your exact price before confirming, no surprises
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckIcon className="w-5 h-5 text-teal mt-0.5 shrink-0" />
                   <span className="text-charcoal">
-                    No contracts — skip or cancel anytime
+                    No contracts, skip or cancel anytime
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -453,8 +453,8 @@ export default function RecurringCleaningPage() {
             Ready to Put Your Cleaning on Autopilot?
           </h2>
           <p className="mt-4 text-white/90 text-lg max-w-2xl mx-auto">
-            Book your recurring plan today and enjoy a consistently clean home —
-            no reminders, no hassle, no missed corners.
+            Book your recurring plan today and enjoy a consistently clean home.
+            No reminders, no hassle, no missed corners.
           </p>
           <div className="mt-8">
             <Link

@@ -9,7 +9,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 export const metadata: Metadata = {
   title: "Deep Cleaning Service Cincinnati, OH",
   description:
-    "Deep cleaning in Cincinnati — inside appliances, baseboards, grout, and more. Great for move-ins or seasonal refreshes. Book now!",
+    "Deep cleaning in Cincinnati: inside appliances, baseboards, grout, and more. Great for move-ins or seasonal refreshes. Book now!",
   alternates: {
     canonical: "https://cincymaid.com/services/deep-cleaning",
   },
@@ -82,7 +82,7 @@ const faqItems = [
   {
     question: "How much does a deep clean cost in Cincinnati?",
     answer:
-      "Deep cleaning pricing depends on your home's square footage, number of bedrooms and bathrooms, and the level of buildup. Deep cleans are priced higher than standard cleanings because they cover areas that are not part of a regular visit. You will see your exact price before confirming your booking — no surprises.",
+      "Deep cleaning pricing depends on your home's square footage, number of bedrooms and bathrooms, and the level of buildup. Deep cleans are priced higher than standard cleanings because they cover areas that are not part of a regular visit. You will see your exact price before confirming your booking. No surprises.",
   },
   {
     question: "How often should I get a deep clean?",
@@ -92,7 +92,7 @@ const faqItems = [
   {
     question: "What is the difference between a deep clean and a standard clean?",
     answer:
-      "A standard cleaning covers everyday surfaces — dusting, vacuuming, mopping, bathrooms, and kitchen surfaces. A deep clean goes further by tackling inside appliances, baseboards, grout, window tracks, ceiling fans, vent covers, and other areas that accumulate grime over time. Think of a deep clean as resetting your home to like-new condition.",
+      "A standard cleaning covers everyday surfaces: dusting, vacuuming, mopping, bathrooms, and kitchen surfaces. A deep clean goes further by tackling inside appliances, baseboards, grout, window tracks, ceiling fans, vent covers, and other areas that accumulate grime over time. Think of a deep clean as resetting your home to like-new condition.",
   },
 ];
 
@@ -188,7 +188,7 @@ const whenToBook = [
   {
     title: "Before Starting Recurring Service",
     description:
-      "A deep clean first means your recurring visits maintain a higher standard from day one — no playing catch-up.",
+      "A deep clean first means your recurring visits maintain a higher standard from day one, with no playing catch-up.",
   },
   {
     title: "Post-Renovation or Move-In",
@@ -234,7 +234,7 @@ export default function DeepCleaningPage() {
             <span className="text-teal">in Cincinnati</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-charcoal-light max-w-3xl mx-auto leading-relaxed">
-            A deep clean reaches every corner your regular routine misses —
+            A deep clean reaches every corner your regular routine misses:
             inside appliances, behind furniture, grout lines, baseboards, and
             more. Reset your home to like-new condition with one thorough visit.
           </p>
@@ -366,14 +366,14 @@ export default function DeepCleaningPage() {
                       {standard ? (
                         <CheckIcon className="w-5 h-5 text-teal mx-auto" />
                       ) : (
-                        <span className="text-charcoal-light/40">—</span>
+                        <span className="text-charcoal-light/40">-</span>
                       )}
                     </td>
                     <td className="py-3 pl-6 text-center">
                       {deep ? (
                         <CheckIcon className="w-5 h-5 text-teal mx-auto" />
                       ) : (
-                        <span className="text-charcoal-light/40">—</span>
+                        <span className="text-charcoal-light/40">-</span>
                       )}
                     </td>
                   </tr>
@@ -444,9 +444,9 @@ export default function DeepCleaningPage() {
                   "Every visit is covered by our liability insurance for complete peace of mind.",
               },
               {
-                title: "Eco-Friendly Products",
+                title: "Premium Supplies",
                 description:
-                  "Professional-grade, eco-friendly supplies that are safe for your family and pets.",
+                  "Professional-grade supplies that are safe for your family and pets.",
               },
             ].map((signal) => (
               <div

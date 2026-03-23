@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Spring Cleaning Checklist for Cincinnati Homeowners",
   description:
-    "A room-by-room spring cleaning checklist for Cincinnati homes — including the seasonal tasks most people forget every year.",
+    "A room-by-room spring cleaning checklist for Cincinnati homes, including the seasonal tasks most people forget every year.",
   alternates: {
     canonical:
       "https://cincymaid.com/blog/spring-cleaning-checklist-cincinnati",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Spring Cleaning Checklist for Cincinnati Homeowners | Cincy Maid",
     description:
-      "A room-by-room spring cleaning checklist for Cincinnati homes — including the seasonal tasks most people forget every year.",
+      "A room-by-room spring cleaning checklist for Cincinnati homes, including the seasonal tasks most people forget every year.",
     url: "https://cincymaid.com/blog/spring-cleaning-checklist-cincinnati",
     type: "article",
     publishedTime: "2026-03-21",
@@ -32,7 +32,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Spring Cleaning Checklist for Cincinnati Homeowners",
   description:
-    "A room-by-room spring cleaning checklist for Cincinnati homes — including the seasonal tasks most people forget every year.",
+    "A room-by-room spring cleaning checklist for Cincinnati homes, including the seasonal tasks most people forget every year.",
   datePublished: "2026-03-21",
   dateModified: "2026-03-21",
   author: {
@@ -56,7 +56,7 @@ const blogPostingSchema = {
   "@type": "BlogPosting",
   headline: "Spring Cleaning Checklist for Cincinnati Homeowners",
   description:
-    "A room-by-room spring cleaning checklist for Cincinnati homes — including the seasonal tasks most people forget every year.",
+    "A room-by-room spring cleaning checklist for Cincinnati homes, including the seasonal tasks most people forget every year.",
   datePublished: "2026-03-21",
   dateModified: "2026-03-21",
   author: {
@@ -92,7 +92,7 @@ const faqSchema = {
       name: "What's the difference between spring cleaning and a regular cleaning?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A regular clean maintains surfaces. Spring cleaning goes deeper — inside appliances, behind furniture, ceiling fans, grout, and areas that get skipped all winter.",
+        text: "A regular clean maintains surfaces. Spring cleaning goes deeper: inside appliances, behind furniture, ceiling fans, grout, and areas that get skipped all winter.",
       },
     },
   ],
@@ -208,7 +208,7 @@ export default function SpringCleaningChecklistPost() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-6 text-charcoal-light text-lg leading-relaxed">
             <p>
-              Cincinnati winters are rough — salt tracked in on every pair of
+              Cincinnati winters are rough. Salt tracked in on every pair of
               boots, windows fogged for months, heating systems running
               nonstop pushing dust through every vent. By the time March rolls
               around, your home has quietly accumulated a winter&apos;s worth
@@ -218,7 +218,7 @@ export default function SpringCleaningChecklistPost() {
             <p>
               Spring cleaning here isn&apos;t just a feel-good ritual.
               It&apos;s necessary. Here&apos;s a room-by-room checklist to
-              get your home back to fresh — including the Cincinnati-specific
+              get your home back to fresh, including the Cincinnati-specific
               tasks most people forget every year.
             </p>
 
@@ -229,7 +229,7 @@ export default function SpringCleaningChecklistPost() {
             <p>
               The kitchen takes the biggest beating all winter. Between holiday
               cooking, comfort food season, and the oven running overtime,
-              grease and grime build up fast — especially in spots you
+              grease and grime build up fast, especially in spots you
               don&apos;t see every day.
             </p>
             <ul className="space-y-3">
@@ -319,7 +319,7 @@ export default function SpringCleaningChecklistPost() {
             </h2>
             <p>
               A proper spring clean takes 6 to 8 hours if you tackle it
-              yourself — and that&apos;s assuming you have the supplies,
+              yourself, and that&apos;s assuming you have the supplies,
               the energy, and a free Saturday with nothing better to do.
             </p>
             <p>
@@ -364,7 +364,7 @@ export default function SpringCleaningChecklistPost() {
                 </h3>
                 <p className="mt-3 text-charcoal-light leading-relaxed">
                   A regular clean maintains surfaces. Spring cleaning goes
-                  deeper — inside appliances, behind furniture, ceiling fans,
+                  deeper: inside appliances, behind furniture, ceiling fans,
                   grout, and areas that get skipped all winter.
                 </p>
               </div>
