@@ -112,6 +112,10 @@ export default async function BlogPostPage({
       "@type": "WebPage",
       "@id": `https://cincymaid.com/blog/${post.slug}`,
     },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "h2", "article p:first-of-type"],
+    },
   };
 
   const blogPostingSchema = {

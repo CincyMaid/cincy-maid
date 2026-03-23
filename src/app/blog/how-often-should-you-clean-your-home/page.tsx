@@ -41,6 +41,10 @@ const articleSchema = {
     "@type": "WebPage",
     "@id": "https://cincymaid.com/blog/how-often-should-you-clean-your-home",
   },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "article p:first-of-type"],
+  },
 };
 
 const blogPostingSchema = {

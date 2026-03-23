@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" width="440" height="100">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap');
-    .cincy { font-family: 'Playfair Display', Georgia, serif; font-size: 64px; font-weight: 700; fill: #2D2D2D; }
-    .maid { font-family: 'Playfair Display', Georgia, serif; font-size: 64px; font-weight: 700; fill: #9688B5; }
+    .cincy { font-family: Georgia, 'Times New Roman', serif; font-size: 64px; font-weight: 700; fill: #2D2D2D; }
+    .maid { font-family: Georgia, 'Times New Roman', serif; font-size: 64px; font-weight: 700; fill: #9688B5; }
   </style>
   <text x="10" y="72" class="cincy">Cincy</text>
-  <text x="195" y="72" class="maid">Maid</text>
+  <text x="215" y="72" class="maid">Maid</text>
 </svg>

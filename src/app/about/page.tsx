@@ -135,16 +135,26 @@ const jsonLd = {
     addressRegion: "OH",
     addressCountry: "US",
   },
-  areaServed: {
-    "@type": "City",
-    name: "Cincinnati",
-    sameAs: "https://en.wikipedia.org/wiki/Cincinnati",
-  },
+  areaServed: [
+    "Cincinnati", "Mason", "West Chester", "Hyde Park", "Oakley",
+    "Mt. Lookout", "Anderson Township", "Madeira", "Indian Hill",
+    "Blue Ash", "Kenwood", "Loveland", "Montgomery", "Mariemont",
+    "Covington", "Florence", "Fort Mitchell", "Newport",
+  ],
   sameAs: [
     "https://www.facebook.com/profile.php?id=61569299643785",
     "https://www.instagram.com/cincymaid",
     "https://www.yelp.com/biz/cincy-maid-loveland",
     "https://nextdoor.com/pages/cincy-maid/",
+  ],
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://cincymaid.com" },
+    { "@type": "ListItem", position: 2, name: "About", item: "https://cincymaid.com/about" },
   ],
 };
 
@@ -198,6 +208,10 @@ export default function AboutPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* ── Hero ── */}

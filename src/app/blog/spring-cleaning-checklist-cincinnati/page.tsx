@@ -49,6 +49,10 @@ const articleSchema = {
     "@type": "WebPage",
     "@id": "https://cincymaid.com/blog/spring-cleaning-checklist-cincinnati",
   },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "article p:first-of-type"],
+  },
 };
 
 const blogPostingSchema = {

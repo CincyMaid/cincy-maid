@@ -28,9 +28,41 @@ const serviceAreas = [
   "Milford",
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "CleaningService"],
+      "@id": "https://cincymaid.com/#business",
+      name: "Cincy Maid",
+      url: "https://cincymaid.com",
+      telephone: "(513) 951-7799",
+      email: "admin@cincymaid.com",
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "(513) 951-7799",
+        contactType: "customer service",
+        areaServed: "US",
+        availableLanguage: "English",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://cincymaid.com" },
+        { "@type": "ListItem", position: 2, name: "Contact", item: "https://cincymaid.com/contact" },
+      ],
+    },
+  ],
+};
+
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-cream py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center">

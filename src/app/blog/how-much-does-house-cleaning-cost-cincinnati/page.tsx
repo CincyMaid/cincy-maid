@@ -30,6 +30,10 @@ const articleSchema = {
   author: { "@type": "Organization", name: "Cincy Maid", url: "https://cincymaid.com" },
   publisher: { "@type": "Organization", name: "Cincy Maid", url: "https://cincymaid.com" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://cincymaid.com/blog/how-much-does-house-cleaning-cost-cincinnati" },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "article p:first-of-type"],
+  },
 };
 
 const blogPostingSchema = {

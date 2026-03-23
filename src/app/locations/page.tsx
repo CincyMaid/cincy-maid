@@ -6,14 +6,14 @@ import type { Location } from "@/data/types";
 export const metadata: Metadata = {
   title: "Service Areas: 33 Communities in Greater Cincinnati",
   description:
-    "Cincy Maid serves 33 neighborhoods across Greater Cincinnati, including Mason, Hyde Park, West Chester, and more. Find your area!",
+    "Cincy Maid serves 33 neighborhoods across Greater Cincinnati and Northern Kentucky, including Mason, Hyde Park, West Chester, Covington, and more.",
   alternates: {
     canonical: "https://cincymaid.com/locations",
   },
   openGraph: {
     title: "Service Areas | Cincy Maid: 33 Communities in Greater Cincinnati",
     description:
-      "Cincy Maid serves 33 neighborhoods across Greater Cincinnati, including Mason, Hyde Park, West Chester, and more. Find your area!",
+      "Cincy Maid serves 33 neighborhoods across Greater Cincinnati and Northern Kentucky, including Mason, Hyde Park, West Chester, Covington, and more.",
     url: "https://cincymaid.com/locations",
   },
 };
@@ -67,11 +67,41 @@ function LocationCard({ location }: { location: Location }) {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "CleaningService"],
+      "@id": "https://cincymaid.com/#business",
+      name: "Cincy Maid",
+      url: "https://cincymaid.com",
+      telephone: "(513) 951-7799",
+      areaServed: [
+        "Cincinnati", "Mason", "West Chester", "Hyde Park", "Oakley",
+        "Mt. Lookout", "Anderson Township", "Madeira", "Indian Hill",
+        "Blue Ash", "Kenwood", "Loveland", "Montgomery", "Mariemont",
+        "Covington", "Florence", "Fort Mitchell", "Newport",
+      ],
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://cincymaid.com" },
+        { "@type": "ListItem", position: 2, name: "Service Areas", item: "https://cincymaid.com/locations" },
+      ],
+    },
+  ],
+};
+
 export default function LocationsPage() {
   const grouped = groupByRegion(locations as Location[]);
 
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-teal py-20 px-6 text-center text-white">
         <div className="mx-auto max-w-3xl">

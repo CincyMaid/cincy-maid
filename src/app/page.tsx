@@ -7,7 +7,7 @@ import ConvertLabsEmbed from "@/components/ConvertLabsEmbed";
 /*  Metadata                                                          */
 /* ------------------------------------------------------------------ */
 export const metadata: Metadata = {
-  title: { absolute: "Cincy Maid | Professional House Cleaning in Cincinnati, OH" },
+  title: { absolute: "House Cleaning in Cincinnati & Northern Kentucky | Cincy Maid" },
   description:
     "Professional house cleaning in Cincinnati starting at $155. Background-checked teams, premium supplies. Book online today!",
   alternates: {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 /* ------------------------------------------------------------------ */
 const cleaningServiceSchema = {
   "@context": "https://schema.org",
-  "@type": "CleaningService" as const,
+  "@type": ["LocalBusiness", "CleaningService"] as const,
   name: "Cincy Maid",
   url: "https://cincymaid.com",
   logo: "https://cincymaid.com/logo.png",
@@ -94,7 +94,7 @@ const cleaningServiceSchema = {
       closes: "20:00",
     },
   ],
-  priceRange: "$$",
+  priceRange: "$155-$350",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
@@ -107,6 +107,7 @@ const cleaningServiceSchema = {
     "https://www.instagram.com/cincymaid",
     "https://www.yelp.com/biz/cincy-maid-loveland",
     "https://nextdoor.com/pages/cincy-maid/",
+    "https://www.google.com/maps/place/Cincy+Maid/data=!4m2!3m1!1s0xaeda7ba59a0c7af1:0x18cd5257b1eb01cc",
   ],
 };
 

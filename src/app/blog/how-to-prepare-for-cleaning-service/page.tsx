@@ -49,6 +49,10 @@ const articleSchema = {
     "@type": "WebPage",
     "@id": "https://cincymaid.com/blog/how-to-prepare-for-cleaning-service",
   },
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "article p:first-of-type"],
+  },
 };
 
 const blogPostingSchema = {

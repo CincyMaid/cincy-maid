@@ -267,8 +267,8 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal leading-tight">
-              Cleaning That Fits{" "}
-              <span className="text-teal">Your Cincinnati Life</span>
+              House Cleaning Services in{" "}
+              <span className="text-teal">Cincinnati &amp; Northern Kentucky</span>
             </h1>
             <p className="mt-5 text-lg text-charcoal-light leading-relaxed max-w-lg">
               Whether it&rsquo;s a busy family home in Hyde Park, a downtown

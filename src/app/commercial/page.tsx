@@ -270,8 +270,8 @@ export default function CommercialPage() {
       <section className="bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 text-center">
           <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal leading-tight">
-            Commercial Cleaning{" "}
-            <span className="text-teal">Built for Your Business</span>
+            Commercial Cleaning Services in{" "}
+            <span className="text-teal">Cincinnati, OH</span>
           </h1>
           <p className="mt-5 text-lg text-charcoal-light leading-relaxed max-w-2xl mx-auto">
             Your facility deserves more than a generic wipe-down. We design
