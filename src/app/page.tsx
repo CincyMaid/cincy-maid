@@ -458,11 +458,15 @@ export default function HomePage() {
                 id="hero-heading"
                 className="font-[family-name:var(--font-playfair)] text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6"
               >
-                Cincinnati&apos;s Trusted House Cleaning Service{" "}
+                House Cleaning in{" "}
                 <span className="text-teal">
-                  So Your Weekends Are Actually Yours.
+                  Cincinnati &amp; Northern Kentucky
                 </span>
               </h1>
+
+              <p className="font-[family-name:var(--font-playfair)] text-xl sm:text-2xl text-white/90 mb-6 italic">
+                So your weekends are actually yours.
+              </p>
 
               <p
                 id="hero-description"
