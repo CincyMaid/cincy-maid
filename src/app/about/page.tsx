@@ -141,6 +141,10 @@ const jsonLd = {
     "Blue Ash", "Kenwood", "Loveland", "Montgomery", "Mariemont",
     "Covington", "Florence", "Fort Mitchell", "Newport",
   ],
+  founder: [
+    { "@type": "Person", name: "Ash" },
+    { "@type": "Person", name: "Adam" },
+  ],
   sameAs: [
     "https://www.facebook.com/profile.php?id=61569299643785",
     "https://www.instagram.com/cincymaid",
@@ -230,10 +234,13 @@ export default function AboutPage() {
               guesswork or stress.
             </p>
             <p className="mt-4 text-lg text-charcoal-light leading-relaxed">
-              We are a locally owned Cincinnati business, not a franchise, not
-              a national chain. The people who answer your calls and assign your
-              cleaning teams are the same people who built this company from the
-              ground up, right here in Cincinnati.
+              Cincy Maid was founded in Cincinnati in 2024 by Ash and Adam
+              — two locals who wanted to build a cleaning service their
+              neighbors could trust with a spare key. We are a locally owned
+              Cincinnati business, not a franchise, not a national chain. The
+              people who answer your calls and assign your cleaning teams are
+              the same people who built this company from the ground up, right
+              here in Cincinnati.
             </p>
             <p className="mt-3 inline-block text-sm font-semibold text-teal-dark bg-teal-light/30 px-4 py-1.5 rounded-full">
               Est. Cincinnati, OH · 2024
