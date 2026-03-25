@@ -57,6 +57,14 @@ const articles = [
     category: "Tips",
     published: true,
   },
+  {
+    title: "House Cleaning in Mason, OH: What to Expect from a Local Cleaning Service",
+    slug: "house-cleaning-mason-ohio",
+    description:
+      "What's included, how recurring service works, and how to get an instant quote for your Mason home.",
+    category: "Advice",
+    published: true,
+  },
 ];
 
 /* Cleaning-related SVG icons by category */
