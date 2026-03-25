@@ -35,21 +35,22 @@ export const metadata: Metadata = {
 /* ------------------------------------------------------------------ */
 const cleaningServiceSchema = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "CleaningService"] as const,
+  "@type": "LocalBusiness",
   name: "Cincy Maid",
+  description:
+    "Locally owned residential house cleaning service serving Cincinnati, Ohio and Northern Kentucky. Background-checked, insured cleaners. No contracts. Satisfaction guaranteed.",
   url: "https://cincymaid.com",
   logo: "https://cincymaid.com/logo.png",
   image: "https://cincymaid.com/og-image.jpg",
   telephone: "(513) 951-7799",
   email: "admin@cincymaid.com",
-  description:
-    "Professional house cleaning services across Cincinnati, OH and surrounding communities. Background-checked teams, premium supplies, and satisfaction guaranteed.",
   foundingDate: "2024",
+  priceRange: "$155\u2013$300",
+  openingHours: "Mo-Su 08:00-20:00",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Cincinnati",
     addressRegion: "OH",
-    postalCode: "45202",
     addressCountry: "US",
   },
   geo: {
@@ -58,49 +59,56 @@ const cleaningServiceSchema = {
     longitude: -84.512,
   },
   areaServed: [
-    { "@type": "City", name: "Cincinnati" },
-    { "@type": "City", name: "Mason" },
-    { "@type": "City", name: "West Chester" },
-    { "@type": "City", name: "Hyde Park" },
-    { "@type": "City", name: "Oakley" },
-    { "@type": "City", name: "Mt. Lookout" },
-    { "@type": "City", name: "Anderson Township" },
-    { "@type": "City", name: "Madeira" },
-    { "@type": "City", name: "Indian Hill" },
-    { "@type": "City", name: "Blue Ash" },
-    { "@type": "City", name: "Kenwood" },
-    { "@type": "City", name: "Loveland" },
-    { "@type": "City", name: "Montgomery" },
-    { "@type": "City", name: "Mariemont" },
-    { "@type": "AdministrativeArea", name: "Northern Kentucky" },
-    { "@type": "City", name: "Covington", containedInPlace: { "@type": "State", name: "Kentucky" } },
-    { "@type": "City", name: "Florence", containedInPlace: { "@type": "State", name: "Kentucky" } },
-    { "@type": "City", name: "Newport", containedInPlace: { "@type": "State", name: "Kentucky" } },
-    { "@type": "City", name: "Erlanger", containedInPlace: { "@type": "State", name: "Kentucky" } },
+    "Cincinnati, OH",
+    "Mason, OH",
+    "West Chester, OH",
+    "Hyde Park, OH",
+    "Oakley, OH",
+    "Anderson Township, OH",
+    "Madeira, OH",
+    "Indian Hill, OH",
+    "Blue Ash, OH",
+    "Kenwood, OH",
+    "Loveland, OH",
+    "Montgomery, OH",
+    "Mariemont, OH",
+    "Northern Kentucky",
   ],
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday",
-      ],
-      opens: "08:00",
-      closes: "20:00",
-    },
-  ],
-  priceRange: "$155-$350",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
     reviewCount: "33",
     bestRating: "5",
-    worstRating: "1",
+  },
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Cleaning Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Recurring House Cleaning",
+          description: "Weekly, bi-weekly, or monthly residential cleaning. Starting at $155 per visit.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "One-Time Deep Clean",
+          description: "Full top-to-bottom deep clean for Cincinnati homes. No contract required.",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Move-In / Move-Out Cleaning",
+          description: "Comprehensive cleaning for homes in transition in the Cincinnati area.",
+        },
+      },
+    ],
   },
   sameAs: [
     "https://www.facebook.com/profile.php?id=61569299643785",
@@ -141,64 +149,39 @@ const howToSchema = {
 
 const faqItems = [
   {
-    question: "What areas around Cincinnati does Cincy Maid serve?",
+    question: "How much does house cleaning cost in Cincinnati?",
     answer:
-      "We serve Greater Cincinnati and Northern Kentucky including Mason, West Chester, Hyde Park, Oakley, Mt. Lookout, Anderson Township, Madeira, Indian Hill, Blue Ash, Kenwood, Loveland, Montgomery, Mariemont, Covington, Florence, Newport, and Erlanger. If you are unsure whether we cover your neighborhood, call us at (513) 951-7799 and we will let you know right away.",
+      "Cincy Maid's recurring cleaning starts at $155 per visit. Your exact price is based on your home's size, square footage and number of bedrooms and bathrooms. You can get an instant quote at cincymaid.com/book in about 60 seconds. No callbacks, no estimates, no surprises.",
   },
   {
-    question: "How much does a house cleaning cost in Cincinnati?",
+    question: "What neighborhoods and cities does Cincy Maid serve?",
     answer:
-      "Our residential cleanings start at $155. Final pricing depends on the size of your home, the level of cleaning you need, and any add-on services such as interior oven or refrigerator cleaning. You will always see your exact price before confirming your booking. No surprises.",
+      "We serve homeowners across Greater Cincinnati and Northern Kentucky, including Mason, West Chester, Hyde Park, Oakley, Mt. Lookout, Anderson Township, Madeira, Indian Hill, Blue Ash, Kenwood, Loveland, Montgomery, and Mariemont. If you're not sure whether we cover your area, get a quote and we'll confirm.",
   },
   {
-    question: "Are your cleaning teams background-checked?",
+    question: "What's included in a standard house cleaning?",
     answer:
-      "Absolutely. Every Cincy Maid team member passes a thorough background screening before they ever enter a client's home. We also carry full liability insurance so you have total peace of mind.",
+      "Every visit covers living areas and bedrooms (dusting, vacuuming, mopping, baseboards, mirrors), bathrooms (toilet, shower/tub, vanity, tile grout, mirrors, floors), and the kitchen (countertops, backsplash, stovetop, microwave interior, cabinet faces, sink, appliance exteriors). We bring everything we need. You don't have to prep or be home.",
   },
   {
-    question: "What cleaning products do you use?",
+    question: "Is Cincy Maid locally owned or a franchise?",
     answer:
-      "We use professional-grade, non-toxic cleaning products that are tough on grime but gentle on surfaces, pets, and children. If you have specific product preferences or sensitivities, let us know during booking and we will accommodate them.",
+      "Locally owned. Cincy Maid started in Cincinnati in 2024 and is not affiliated with any national franchise. You're working directly with the owner, not a call center routing requests to a contractor pool.",
   },
   {
-    question: "Can I book a one-time deep clean instead of recurring service?",
+    question: "What happens if something isn't cleaned to my standard?",
     answer:
-      "Yes. We offer both one-time deep cleans and recurring plans (weekly, biweekly, or monthly). Many Cincinnati homeowners start with a deep clean and then switch to a recurring schedule to keep things consistently fresh.",
+      "We come back within 24 hours and fix it at no charge. No forms, no arguments. That guarantee applies to every visit.",
   },
   {
-    question: "What happens if I am not satisfied with my cleaning?",
+    question: "How often should I schedule cleaning?",
     answer:
-      "Your satisfaction is our priority. If anything does not meet your expectations, contact us within 24 hours at (513) 951-7799 or admin@cincymaid.com and we will send a team back to make it right at no additional charge.",
+      "Bi-weekly is what most Cincinnati families land on. It keeps the house at a real baseline without requiring too much maintenance in between. Weekly works for larger households or anyone who wants consistent upkeep. Monthly is available for lighter needs. All plans start with a deep clean on the first visit.",
   },
   {
-    question: "Do I need to be home during the cleaning?",
+    question: "Are your cleaners background-checked?",
     answer:
-      "Not at all. Many of our Cincinnati clients provide a spare key, garage code, or lockbox access. Our teams are fully insured and background-checked, so you can feel confident leaving your home in our hands.",
-  },
-  {
-    question: "How far in advance should I book?",
-    answer:
-      "We recommend booking at least 48 hours ahead to guarantee your preferred date and time, especially during busy seasons. However, we do our best to accommodate same-week requests across the Cincinnati area whenever availability allows.",
-  },
-  {
-    question: "How often should I have my house cleaned?",
-    answer:
-      "Most Cincinnati families choose biweekly service. It keeps the home consistently clean without the cost of weekly visits. If you have kids, pets, or entertain frequently, weekly service may be a better fit. A monthly clean works well for smaller homes or as a supplement to your own cleaning routine.",
-  },
-  {
-    question: "Is it worth hiring a house cleaner?",
-    answer:
-      "For busy Cincinnati families, hiring a cleaner typically saves 3–5 hours per week and reduces stress significantly. Many clients tell us the biggest benefit isn't the clean home. It's getting their weekends back. With recurring plans starting at $155, most families find the cost reasonable compared to the time and energy they save.",
-  },
-  {
-    question: "How do I prepare for a house cleaning?",
-    answer:
-      "You do not need to do much. We ask that you pick up loose items from floors and surfaces so our team can clean efficiently. Secure pets if needed. You do not need to be home. Many Cincinnati clients provide a key or garage code. That is all.",
-  },
-  {
-    question: "Do I need to provide cleaning supplies?",
-    answer:
-      "No. Our teams arrive fully equipped with professional-grade cleaning products and all necessary equipment. If you have a preference for a specific product or have a surface that requires special care, let us know during booking and we will accommodate it.",
+      "Yes. Every Cincy Maid cleaner is background-checked and insured before they step into a client's home. We're also BBB accredited. Trust is the reason most of our clients stay, and why they hand us a key.",
   },
 ];
 
@@ -836,12 +819,8 @@ export default function HomePage() {
               FAQ
             </span>
             <h2 className="font-[family-name:var(--font-playfair)] text-3xl sm:text-4xl font-bold text-charcoal mb-4">
-              Common <span className="text-teal">Questions</span>, Straight Answers
+              Common <span className="text-teal">Questions</span>
             </h2>
-            <p className="text-charcoal-light max-w-2xl mx-auto text-lg">
-              Everything you need to know about booking, pricing, and what to
-              expect from your Cincy Maid cleaning.
-            </p>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-4">
