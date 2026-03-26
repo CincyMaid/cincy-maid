@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type EmbedType = "booking" | "leads" | "gift-card" | "commercial";
 
@@ -41,8 +41,28 @@ const embedScript: Record<EmbedType, string> = {
 
 export default function ConvertLabsEmbed({ type }: { type: EmbedType }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const [visible, setVisible] = useState(false);
+
+  // Defer loading until the embed scrolls into view (or is near viewport)
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
+    if (!visible) return;
     const container = containerRef.current;
     if (!container) return;
 
@@ -74,7 +94,7 @@ export default function ConvertLabsEmbed({ type }: { type: EmbedType }) {
       cancelled = true;
       container.innerHTML = "";
     };
-  }, [type]);
+  }, [type, visible]);
 
-  return <div ref={containerRef} className="w-full" />;
+  return <div ref={containerRef} className="w-full min-h-[200px]" />;
 }

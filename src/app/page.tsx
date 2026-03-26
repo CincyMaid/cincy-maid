@@ -406,6 +406,7 @@ export default function HomePage() {
             fill
             className="object-cover"
             priority
+            quality={65}
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-charcoal/35" />
