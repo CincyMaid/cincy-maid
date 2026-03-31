@@ -18,6 +18,38 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    title: "What Cincinnati Homeowners Want to Know Before Handing Over a House Key",
+    slug: "cincymaid-handing-over-house-key-cincinnati",
+    description:
+      "Giving a house cleaner access when you're not home is a real trust decision. Here's what to ask, expect, and look for first.",
+    category: "Advice",
+    published: true,
+  },
+  {
+    title: "House Cleaning in Mason, OH: What to Expect from a Local Cleaning Service",
+    slug: "house-cleaning-mason-ohio",
+    description:
+      "What's included, how recurring service works, and how to get an instant quote for your Mason home.",
+    category: "Advice",
+    published: true,
+  },
+  {
+    title: "How Much Does House Cleaning Cost in Cincinnati?",
+    slug: "how-much-does-house-cleaning-cost-cincinnati",
+    description:
+      "Recurring starts at $155. Deep cleans, move-out cleans, and hourly options explained, with real pricing and what affects the final number.",
+    category: "Pricing",
+    published: true,
+  },
+  {
+    title: "How Often Should You Clean Your Home?",
+    slug: "how-often-should-you-clean-your-home",
+    description:
+      "A room-by-room cleaning frequency guide, from daily habits to seasonal deep cleans. What Cincinnati pros recommend.",
+    category: "Tips",
+    published: true,
+  },
+  {
     title: "5 Signs It's Time to Hire a House Cleaner in Cincinnati",
     slug: "signs-you-need-a-house-cleaner",
     description:
@@ -39,38 +71,6 @@ const articles = [
     description:
       "Room-by-room spring cleaning checklist tailored for Cincinnati homes, including seasonal tasks most people forget.",
     category: "Checklist",
-    published: true,
-  },
-  {
-    title: "How Much Does House Cleaning Cost in Cincinnati?",
-    slug: "how-much-does-house-cleaning-cost-cincinnati",
-    description:
-      "Recurring starts at $155. Deep cleans, move-out cleans, and hourly options explained, with real pricing and what affects the final number.",
-    category: "Pricing",
-    published: true,
-  },
-  {
-    title: "How Often Should You Clean Your Home?",
-    slug: "how-often-should-you-clean-your-home",
-    description:
-      "A room-by-room cleaning frequency guide, from daily habits to seasonal deep cleans. What Cincinnati pros recommend.",
-    category: "Tips",
-    published: true,
-  },
-  {
-    title: "House Cleaning in Mason, OH: What to Expect from a Local Cleaning Service",
-    slug: "house-cleaning-mason-ohio",
-    description:
-      "What's included, how recurring service works, and how to get an instant quote for your Mason home.",
-    category: "Advice",
-    published: true,
-  },
-  {
-    title: "What Cincinnati Homeowners Want to Know Before Handing Over a House Key",
-    slug: "cincymaid-handing-over-house-key-cincinnati",
-    description:
-      "Giving a house cleaner access when you're not home is a real trust decision. Here's what to ask, expect, and look for first.",
-    category: "Advice",
     published: true,
   },
 ];
