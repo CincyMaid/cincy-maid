@@ -151,7 +151,7 @@ const faqItems = [
   {
     question: "How much does house cleaning cost in Cincinnati?",
     answer:
-      "Cincy Maid's recurring cleaning starts at $155 per visit. Your exact price is based on your home's size, square footage and number of bedrooms and bathrooms. You can get an instant quote at cincymaid.com/book in about 60 seconds. No callbacks, no estimates, no surprises.",
+      "Cincy Maid's recurring cleaning starts at $155 per visit. Your exact price is based on your home's size, square footage and number of bedrooms and bathrooms. You can get an instant quote at cincymaid.com/booking in about 60 seconds. No callbacks, no estimates, no surprises.",
   },
   {
     question: "What neighborhoods and cities does Cincy Maid serve?",
