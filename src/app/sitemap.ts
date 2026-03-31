@@ -39,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-much-does-house-cleaning-cost-cincinnati",
     "how-often-should-you-clean-your-home",
     "house-cleaning-mason-ohio",
+    "cincymaid-handing-over-house-key-cincinnati",
   ];
 
   const blogPages: MetadataRoute.Sitemap = blogSlugs.map((slug) => ({

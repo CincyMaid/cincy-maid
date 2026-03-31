@@ -65,6 +65,14 @@ const articles = [
     category: "Advice",
     published: true,
   },
+  {
+    title: "What Cincinnati Homeowners Want to Know Before Handing Over a House Key",
+    slug: "cincymaid-handing-over-house-key-cincinnati",
+    description:
+      "Giving a house cleaner access when you're not home is a real trust decision. Here's what to ask, expect, and look for first.",
+    category: "Advice",
+    published: true,
+  },
 ];
 
 /* Cleaning-related SVG icons by category */
