@@ -45,6 +45,8 @@ const radioClasses =
 export default function ApplicationForm() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
@@ -53,31 +55,24 @@ export default function ApplicationForm() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   }
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
+    setLoading(true);
+    setError(null);
 
-    const subject = encodeURIComponent(
-      `Job Application - ${formData.fullName}`
-    );
+    const res = await fetch("/api/apply", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
 
-    const body = encodeURIComponent(
-      `New Job Application from Cincy Maid Careers Page
+    setLoading(false);
 
-Full Name: ${formData.fullName}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Current Workplace: ${formData.currentWorkplace || "N/A"}
-Location: ${formData.city}, OH
-Travel Distance: ${formData.travelDistance} miles
-Own Transportation: ${formData.ownTransportation}
-Own Cleaning Supplies: ${formData.ownCleaningSupplies}
-Has Insurance: ${formData.hasInsurance}
-Willing to Pass Background Check: ${formData.backgroundCheck}
-Years of Experience: ${formData.yearsExperience}
-Desired Hours/Week: ${formData.hoursPerWeek}`
-    );
+    if (!res.ok) {
+      setError("Something went wrong. Please try again or call us at (513) 951-7799.");
+      return;
+    }
 
-    window.location.href = `mailto:admin@cincymaid.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   }
 
@@ -100,13 +95,11 @@ Desired Hours/Week: ${formData.hoursPerWeek}`
           </svg>
         </div>
         <h3 className="text-xl font-semibold text-gray-800 mb-2">
-          Application Submitted!
+          Application Received!
         </h3>
         <p className="text-gray-600 mb-6">
-          Thank you for your interest in joining Cincy Maid. Your email client
-          should have opened with your application details. Please send the
-          email to complete your submission. We&apos;ll review your application
-          and get back to you soon.
+          Thanks for applying to Cincy Maid. We&apos;ll review your application
+          and reach out within a few business days.
         </p>
         <button
           type="button"
@@ -400,12 +393,20 @@ Desired Hours/Week: ${formData.hoursPerWeek}`
         </select>
       </div>
 
+      {/* Error */}
+      {error && (
+        <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-3">
+          {error}
+        </p>
+      )}
+
       {/* Submit */}
       <button
         type="submit"
-        className="w-full rounded-lg bg-teal px-6 py-3 text-base font-semibold text-white hover:bg-teal/90 focus:outline-none focus:ring-2 focus:ring-teal/30 transition-colors"
+        disabled={loading}
+        className="w-full rounded-lg bg-teal px-6 py-3 text-base font-semibold text-white hover:bg-teal/90 focus:outline-none focus:ring-2 focus:ring-teal/30 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        Submit Application
+        {loading ? "Submitting..." : "Submit Application"}
       </button>
     </form>
   );
