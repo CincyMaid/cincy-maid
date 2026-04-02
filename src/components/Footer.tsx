@@ -53,6 +53,7 @@ const quickLinks = [
   { href: "/about", label: "About Us" },
   { href: "/booking", label: "Book a Cleaning" },
   { href: "/gift-cards", label: "Gift Cards" },
+  { href: "/blog", label: "Blog" },
   { href: "/careers", label: "Join Our Team" },
   { href: "/contact", label: "Contact Us" },
 ];
