@@ -103,12 +103,19 @@ export default function TermsOfServicePage() {
                 differs significantly from what was described.
               </li>
               <li>
-                Payment is due at the time of service unless other arrangements have been agreed
-                upon in writing.
+                We accept valid credit and debit cards only. No other forms of payment are accepted.
               </li>
               <li>
-                We accept major credit cards, debit cards, and other payment methods listed at
-                the time of booking.
+                A valid card is required to complete your reservation. Your card information is
+                collected securely at the time of booking.
+              </li>
+              <li>
+                A temporary authorization hold will be placed on your card approximately 24 hours
+                before your scheduled appointment to verify the card is valid and has sufficient funds.
+                This hold is not a charge.
+              </li>
+              <li>
+                Your card will be charged the day after your cleaning is completed.
               </li>
               <li>
                 All prices are in U.S. dollars and do not include applicable taxes unless stated
