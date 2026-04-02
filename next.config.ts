@@ -23,7 +23,19 @@ const nextConfig: NextConfig = {
       { source: "/loveland", destination: "/", permanent: true },
       { source: "/loveland/", destination: "/", permanent: true },
 
+      // Missing location slug variants
+      { source: "/mariemont-house-cleaner", destination: "/", permanent: true },
+      { source: "/mariemont-house-cleaner/", destination: "/", permanent: true },
+      { source: "/hyde-park-house-cleaner", destination: "/", permanent: true },
+      { source: "/hyde-park-house-cleaner/", destination: "/", permanent: true },
+      { source: "/mt-adams", destination: "/", permanent: true },
+      { source: "/mt-adams/", destination: "/", permanent: true },
+      { source: "/mason-house-cleaner", destination: "/", permanent: true },
+      { source: "/mason-house-cleaner/", destination: "/", permanent: true },
+
       // Old booking URLs → /booking
+      { source: "/book", destination: "/booking", permanent: true },
+      { source: "/book/", destination: "/booking", permanent: true },
       { source: "/book-now", destination: "/booking", permanent: true },
       { source: "/book-now/", destination: "/booking", permanent: true },
       { source: "/booking/", destination: "/booking", permanent: true },
@@ -60,6 +72,40 @@ const nextConfig: NextConfig = {
         destination: "/blog",
         permanent: true,
       },
+
+      // Missing blog post URLs
+      { source: "/move-out-cleaning-checklist-cincinnati", destination: "/blog", permanent: true },
+      { source: "/move-out-cleaning-checklist-cincinnati/", destination: "/blog", permanent: true },
+      { source: "/cleaning-mistakes-homeowners-cincinnati", destination: "/blog", permanent: true },
+      { source: "/cleaning-mistakes-homeowners-cincinnati/", destination: "/blog", permanent: true },
+      { source: "/cleaning-mistakes-homeowners-cincinnati/feed/", destination: "/blog", permanent: true },
+      { source: "/worst-cleaning-mistakes", destination: "/blog", permanent: true },
+      { source: "/worst-cleaning-mistakes/", destination: "/blog", permanent: true },
+      { source: "/worst-cleaning-mistakes/feed/", destination: "/blog", permanent: true },
+
+      // join-our-team (old WP URL) → /careers
+      { source: "/join-our-team", destination: "/careers", permanent: true },
+      { source: "/join-our-team/", destination: "/careers", permanent: true },
+
+      // WordPress junk (wildcards)
+      { source: "/wp-admin/:path*", destination: "/", permanent: true },
+      { source: "/wp-content/:path*", destination: "/", permanent: true },
+      { source: "/wp-includes/:path*", destination: "/", permanent: true },
+      { source: "/wp-login.php", destination: "/", permanent: true },
+      { source: "/wp-config.php", destination: "/", permanent: true },
+      { source: "/wp-cron.php", destination: "/", permanent: true },
+      { source: "/wp-load.php", destination: "/", permanent: true },
+      { source: "/wp-signup.php", destination: "/", permanent: true },
+      { source: "/wp-trackback.php", destination: "/", permanent: true },
+      { source: "/xmlrpc.php", destination: "/", permanent: true },
+      { source: "/category/:path*", destination: "/", permanent: true },
+      { source: "/2025/:path*", destination: "/", permanent: true },
+      { source: "/faq/how-do-i-book-my-first-appointment", destination: "/booking", permanent: true },
+      { source: "/faq/how-do-i-book-my-first-appointment/", destination: "/booking", permanent: true },
+      { source: "/faq/how-do-i-use-my-credits", destination: "/", permanent: true },
+      { source: "/faq/how-do-i-use-my-credits/", destination: "/", permanent: true },
+      { source: "/lovelandtest", destination: "/", permanent: true },
+      { source: "/lovelandtest/", destination: "/", permanent: true },
 
       // Testimonials, home → homepage
       { source: "/testimonials", destination: "/", permanent: true },
