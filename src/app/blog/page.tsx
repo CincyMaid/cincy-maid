@@ -18,6 +18,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    title: "Why Cincinnati Homeowners Choose Locally Owned Cleaning Services",
+    slug: "locally-owned-cleaning-service-cincinnati",
+    description:
+      "There's a real difference between a locally owned cleaning company and a national franchise. Here's what Cincinnati homeowners are finding out.",
+    category: "Advice",
+    published: true,
+  },
+  {
     title: "What Cincinnati Homeowners Want to Know Before Handing Over a House Key",
     slug: "cincymaid-handing-over-house-key-cincinnati",
     description:
