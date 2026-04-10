@@ -73,6 +73,10 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // Commercial quotes → /commercial
+      { source: "/commercial-quotes", destination: "/commercial", permanent: true },
+      { source: "/commercial-quotes/", destination: "/commercial", permanent: true },
+
       // Missing blog post URLs
       { source: "/move-out-cleaning-checklist-cincinnati", destination: "/blog", permanent: true },
       { source: "/move-out-cleaning-checklist-cincinnati/", destination: "/blog", permanent: true },
