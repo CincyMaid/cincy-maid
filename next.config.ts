@@ -104,7 +104,7 @@ const nextConfig: NextConfig = {
       { source: "/xmlrpc.php", destination: "/", permanent: true },
       { source: "/category/:path*", destination: "/", permanent: true },
       { source: "/2025/:path*", destination: "/", permanent: true },
-      { source: "/faq/:slug*", destination: "/faq", permanent: true },
+      { source: "/faq/:slug+", destination: "/faq", permanent: true },
       { source: "/lovelandtest", destination: "/", permanent: true },
       { source: "/lovelandtest/", destination: "/", permanent: true },
 
