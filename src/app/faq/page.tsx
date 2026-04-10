@@ -3,7 +3,7 @@ import Link from "next/link";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "FAQ | House Cleaning Questions Answered | Cincy Maid",
+  title: "FAQ | House Cleaning Questions Answered",
   description:
     "Answers to the most common questions Cincinnati homeowners ask about Cincy Maid — pricing, what's included, trust, scheduling, and your account.",
   alternates: {

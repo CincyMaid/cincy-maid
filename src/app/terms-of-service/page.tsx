@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Cincy Maid",
+  title: "Terms of Service",
   description:
     "Cincy Maid terms of service. Review the terms and conditions that apply to our Cincinnati house cleaning services and website.",
   alternates: {
