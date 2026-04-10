@@ -54,7 +54,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "How much does house cleaning cost in Cincinnati?",
-      acceptedAnswer: { "@type": "Answer", text: "Recurring biweekly cleaning in Cincinnati starts at $132 per visit for a 1-bedroom home with Cincy Maid. A 2-bedroom home runs $157–$174 biweekly depending on bathrooms. A 3-bedroom, 2-bathroom home typically runs $204–$225 biweekly. A 4-bedroom home runs $268–$315 biweekly. Prices are based on bedrooms, bathrooms, and square footage. One-time cleaning is priced higher. Enter your home details at cincymaid.com/booking for an instant exact quote." },
+      acceptedAnswer: { "@type": "Answer", text: "Recurring cleaning in Cincinnati starts at $155 per visit with Cincy Maid. Final pricing depends on your home size (bedrooms and bathrooms) and cleaning frequency. A 2-bedroom home typically runs $157–$174, a 3-bedroom 2-bathroom home runs $204–$225, and a 4-bedroom home runs $268–$315. Enter your home details at cincymaid.com/booking for an instant exact quote." },
     },
     {
       "@type": "Question",
