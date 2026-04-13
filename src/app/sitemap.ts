@@ -40,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-often-should-you-clean-your-home",
     "house-cleaning-mason-ohio",
     "cincymaid-handing-over-house-key-cincinnati",
+    "cincymaid-how-often-professional-house-cleaning-cincinnati",
     "locally-owned-cleaning-service-cincinnati",
   ];
 

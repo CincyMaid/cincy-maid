@@ -18,6 +18,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    title: "How Often Should You Schedule Professional House Cleaning?",
+    slug: "cincymaid-how-often-professional-house-cleaning-cincinnati",
+    description:
+      "Not sure how often to book a house cleaner? A practical guide for Cincinnati homeowners on bi-weekly, weekly, and monthly schedules.",
+    category: "Tips",
+    published: true,
+  },
+  {
     title: "Why Cincinnati Homeowners Choose Locally Owned Cleaning Services",
     slug: "locally-owned-cleaning-service-cincinnati",
     description:
