@@ -136,19 +136,19 @@ export default function HowOftenCleaningCincinnatiPost() {
               A bi-weekly schedule keeps all of that in check without cleaning dominating your weekend.
             </p>
             <p>
-              <strong className="text-charcoal">Weekly</strong> is the right call if your household generates a lot of
+              <strong className="text-charcoal">Weekly</strong>{" "}is the right call if your household generates a lot of
               mess quickly, whether that means multiple pets, young kids who are home most of the day, or a high-traffic
               home where people are in and out constantly. Weekly visits keep the baseline consistently high so
               you&apos;re never catching up.
             </p>
             <p>
-              <strong className="text-charcoal">Monthly</strong> can work for smaller households, couples without kids,
+              <strong className="text-charcoal">Monthly</strong>{" "}can work for smaller households, couples without kids,
               or homes that are used lightly throughout the week. It&apos;s also a reasonable starting point if
               you&apos;re not sure yet how often you actually need someone to come in. You&apos;ll know pretty quickly
               whether monthly is enough or whether you want to bump up the frequency.
             </p>
             <p>
-              <strong className="text-charcoal">One-time or occasional</strong> cleanings are great for specific
+              <strong className="text-charcoal">One-time or occasional</strong>{" "}cleanings are great for specific
               situations: before a big gathering, after a renovation, when you&apos;re moving in or moving out, or as a
               gift to someone who could use a break. These aren&apos;t meant to replace a regular schedule, but they
               serve a real purpose.
