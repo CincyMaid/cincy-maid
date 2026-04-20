@@ -18,6 +18,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    title: "What to Expect from Your First House Cleaning in Cincinnati",
+    slug: "cincymaid-first-house-cleaning-cincinnati",
+    description:
+      "Booking your first professional house cleaning? Here's exactly what happens before, during, and after so you know what you're getting into.",
+    category: "Advice",
+    published: true,
+  },
+  {
     title: "How Often Should You Schedule Professional House Cleaning?",
     slug: "cincymaid-how-often-professional-house-cleaning-cincinnati",
     description:
