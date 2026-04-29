@@ -18,6 +18,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    title: "Move-In Cleaning in Cincinnati: Starting Fresh in Your New Home",
+    slug: "cincymaid-move-in-cleaning-cincinnati",
+    description:
+      "Moving into a new home in Cincinnati or Northern Kentucky? Here's what a professional move-in cleaning covers and when to schedule it.",
+    category: "Advice",
+    published: true,
+  },
+  {
     title: "What to Expect from Your First House Cleaning in Cincinnati",
     slug: "cincymaid-first-house-cleaning-cincinnati",
     description:
